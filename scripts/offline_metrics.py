@@ -91,11 +91,11 @@ def evaluate_offline(model_path, dataset_path):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--dataset", type=str,
-                         default="/home/maria/robosuite_work/demos_lift/low_dim.hdf5")
+                         default="../data/demos_lift/low_dim.hdf5")
     parser.add_argument("--models", type=str, nargs="+",
                          default=[
-                             "/home/maria/robosuite_work/demos_lift/bc_50.pt",
-                             "/home/maria/robosuite_work/demos_lift/bc_500.pt",
+                             "../data/demos_lift/bc_50.pt",
+                             "../data/demos_lift/bc_500.pt",
                          ])
     args = parser.parse_args()
 

@@ -5,7 +5,7 @@ import torch
 from phase_recovery import create_env, load_policy, find_phase_indices, restore_state, DATASET
 from eval_bc import flatten_obs
 
-MODEL = "/home/maria/robosuite_work/demos_lift/bc_500_seed42.pt"
+MODEL = "../data/demos_lift/bc_500_seed42.pt"
 
 policy = load_policy(MODEL)
 env = create_env()

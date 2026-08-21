@@ -63,10 +63,10 @@ def evaluate_offline(model_path, dataset_path):
     return metrics
 
 if __name__ == "__main__":
-    dataset = "/home/maria/robosuite_work/demos_stack/1786611107_4237583/low_dim.hdf5"
+    dataset = "../data/demos_stack/1786611107_4237583/low_dim.hdf5"
     models = [
-        "/home/maria/robosuite_work/demos_stack/bc_stack_50.pt",
-        "/home/maria/robosuite_work/demos_stack/bc_stack_500.pt",
+        "../data/demos_stack/bc_stack_50.pt",
+        "../data/demos_stack/bc_stack_500.pt",
     ]
     print("=" * 60)
     print("OFFLINE IMITATION QUALITY - STACK")

@@ -47,3 +47,13 @@ Restoring a MuJoCo simulator state via `set_state_from_flattened` does **not** a
 ## License
 
 MIT
+
+## Included data
+
+This repository includes the processed demonstration datasets and trained policy checkpoints used in the paper:
+- `data/demos_lift/low_dim.hdf5` (25 demonstrations, 18,503 state-action pairs)
+- `data/demos_lift/bc_50.pt`, `bc_500.pt`, and seeded variants (`bc_50_seed{42,43,44}.pt`, `bc_500_seed{42,43,44}.pt`)
+- `data/demos_stack/low_dim.hdf5` (40 demonstrations, 26,601 state-action pairs)
+- `data/demos_stack/bc_stack_50.pt`, `bc_stack_500.pt`
+
+Raw MuJoCo simulator states (needed for state-restoration analyses) are included in each `low_dim.hdf5` file under the `states` key.

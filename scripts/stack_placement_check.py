@@ -52,7 +52,7 @@ def find_stack_phase_indices(env, states):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--dataset", type=str, default="/home/maria/robosuite_work/demos_stack/1786611107_4237583/demo.hdf5")
+    parser.add_argument("--dataset", type=str, default="../data/demos_stack/1786611107_4237583/demo.hdf5")
     parser.add_argument("--max_demos", type=int, default=15)
     args = parser.parse_args()
 

@@ -96,8 +96,8 @@ def rollout_from_state(env, policy, state, max_steps=500):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model", type=str, default="/home/maria/robosuite_work/demos_stack/bc_stack_500.pt")
-    parser.add_argument("--dataset", type=str, default="/home/maria/robosuite_work/demos_stack/1786611107_4237583/demo.hdf5")
+    parser.add_argument("--model", type=str, default="../data/demos_stack/bc_stack_500.pt")
+    parser.add_argument("--dataset", type=str, default="../data/demos_stack/1786611107_4237583/demo.hdf5")
     parser.add_argument("--max_demos", type=int, default=15)
     parser.add_argument("--max_steps", type=int, default=500)
     args = parser.parse_args()

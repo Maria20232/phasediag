@@ -153,7 +153,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", type=str, required=True)
     parser.add_argument("--dataset", type=str,
-                         default="/home/maria/robosuite_work/demos_lift/demo_consolidated.hdf5")
+                         default="../data/demos_lift/demo_consolidated.hdf5")
     parser.add_argument("--samples_per_bin", type=int, default=15)
     parser.add_argument("--max_steps", type=int, default=400)
     parser.add_argument("--seed", type=int, default=0)

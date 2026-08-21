@@ -9,9 +9,9 @@ from robosuite.controllers import load_composite_controller_config
 from eval_bc import BCPolicy, flatten_obs
 
 
-DATASET = "/home/maria/robosuite_work/demos_lift/low_dim.hdf5"
-BC50_PATH = "/home/maria/robosuite_work/demos_lift/bc_50.pt"
-BC500_PATH = "/home/maria/robosuite_work/demos_lift/bc_500.pt"
+DATASET = "../data/demos_lift/low_dim.hdf5"
+BC50_PATH = "../data/demos_lift/bc_50.pt"
+BC500_PATH = "../data/demos_lift/bc_500.pt"
 
 CONTROL_FREQ = 20
 HORIZON = 400
