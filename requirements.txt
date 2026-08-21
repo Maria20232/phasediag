@@ -1,0 +1,6 @@
+robosuite==1.5.2
+mujoco==3.3.0
+h5py
+torch
+numpy
+matplotlib
