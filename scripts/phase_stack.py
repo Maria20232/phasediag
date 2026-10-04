@@ -82,8 +82,19 @@ def find_stack_phase_indices(env, states):
 
     return phases
 
-def rollout_from_state(env, policy, state, max_steps=500):
+def rollout_from_state(env, policy, state, action_history, initial_joints, max_steps=500):
+    env.reset()
     obs = set_robot_state(env, state)
+    controller = env.robots[0].composite_controller.part_controllers["right"]
+    controller.update_initial_joints(initial_joints)
+    obs = env._get_observations(force_update=True)
+    gripper = env.robots[0].gripper
+    if isinstance(gripper, dict):
+        gripper = gripper["right"]
+    for expert_action in action_history:
+        gripper.format_action(np.asarray(expert_action[-1:]))
+    if env._check_success():
+        return None, 0  # Exclude already-successful initial states.
     for step in range(max_steps):
         state_vec = flatten_obs(obs)
         with torch.no_grad():
@@ -120,6 +131,8 @@ def main():
 
         for demo_name in demo_keys:
             states = f[f"data/{demo_name}/states"][:]
+            actions = f[f"data/{demo_name}/actions"][:]
+            initial_joints = f[f"data/{demo_name}/obs/robot0_joint_pos"][0].copy()
             print(f"\n{demo_name}: detecting phases...")
             phases = find_stack_phase_indices(env, states)
             print(f"  found: {phases}")
@@ -129,7 +142,14 @@ def main():
                     results[phase_name]["skipped"] += 1
                     print(f"  {phase_name:<16}: SKIPPED - phase unavailable")
                     continue
-                success, steps = rollout_from_state(env, policy, states[idx], args.max_steps)
+                success, steps = rollout_from_state(
+                    env, policy, states[idx], actions[:idx],
+                    initial_joints, args.max_steps
+                )
+                if success is None:
+                    results[phase_name]["skipped"] += 1
+                    print(f"  {phase_name:<16}: EXCLUDED - initially successful")
+                    continue
                 results[phase_name]["attempts"] += 1
                 if success:
                     results[phase_name]["successes"] += 1
