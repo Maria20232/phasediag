@@ -1,0 +1,122 @@
+[
+  {
+    "demo": "demo_3",
+    "phase": "Approach",
+    "index": 38,
+    "prefix_state_error": 6.572433569607128e-16,
+    "restored_state_error": 0.0,
+    "initially_successful": false,
+    "status": "expert_success",
+    "expert_success_step": 718
+  },
+  {
+    "demo": "demo_3",
+    "phase": "Grasp-transport",
+    "index": 592,
+    "prefix_state_error": 3.3487657091768597e-12,
+    "restored_state_error": 0.0,
+    "initially_successful": false,
+    "status": "expert_success",
+    "expert_success_step": 164
+  },
+  {
+    "demo": "demo_3",
+    "phase": "Near-placement",
+    "index": 684,
+    "prefix_state_error": 2.8088122105973667e-12,
+    "restored_state_error": 0.0,
+    "initially_successful": false,
+    "status": "expert_success",
+    "expert_success_step": 72
+  },
+  {
+    "demo": "demo_5",
+    "phase": "Approach",
+    "index": 61,
+    "prefix_state_error": 3.532581748908718e-16,
+    "restored_state_error": 0.0,
+    "initially_successful": false,
+    "status": "expert_success",
+    "expert_success_step": 686
+  },
+  {
+    "demo": "demo_5",
+    "phase": "Grasp-transport",
+    "index": 527,
+    "prefix_state_error": 4.371503159461554e-14,
+    "restored_state_error": 0.0,
+    "initially_successful": false,
+    "status": "expert_success",
+    "expert_success_step": 220
+  },
+  {
+    "demo": "demo_5",
+    "phase": "Near-placement",
+    "index": 650,
+    "prefix_state_error": 5.6032652476223355e-14,
+    "restored_state_error": 0.0,
+    "initially_successful": false,
+    "status": "expert_success",
+    "expert_success_step": 97
+  },
+  {
+    "demo": "demo_19",
+    "phase": "Approach",
+    "index": 33,
+    "prefix_state_error": 1.471706363459638e-16,
+    "restored_state_error": 0.0,
+    "initially_successful": false,
+    "status": "expert_success",
+    "expert_success_step": 589
+  },
+  {
+    "demo": "demo_19",
+    "phase": "Grasp-transport",
+    "index": 471,
+    "prefix_state_error": 1.6028289806513385e-12,
+    "restored_state_error": 0.0,
+    "initially_successful": false,
+    "status": "expert_success",
+    "expert_success_step": 151
+  },
+  {
+    "demo": "demo_19",
+    "phase": "Near-placement",
+    "index": 509,
+    "prefix_state_error": 6.377473549257218e-11,
+    "restored_state_error": 0.0,
+    "initially_successful": false,
+    "status": "expert_success",
+    "expert_success_step": 113
+  },
+  {
+    "demo": "demo_27",
+    "phase": "Approach",
+    "index": 23,
+    "prefix_state_error": 5.977536322187143e-17,
+    "restored_state_error": 0.0,
+    "initially_successful": false,
+    "status": "expert_success",
+    "expert_success_step": 435
+  },
+  {
+    "demo": "demo_27",
+    "phase": "Grasp-transport",
+    "index": 320,
+    "prefix_state_error": 1.614680611439212e-14,
+    "restored_state_error": 0.0,
+    "initially_successful": false,
+    "status": "expert_success",
+    "expert_success_step": 138
+  },
+  {
+    "demo": "demo_27",
+    "phase": "Near-placement",
+    "index": 383,
+    "prefix_state_error": 1.5981140022436335e-14,
+    "restored_state_error": 0.0,
+    "initially_successful": false,
+    "status": "expert_success",
+    "expert_success_step": 75
+  }
+]
