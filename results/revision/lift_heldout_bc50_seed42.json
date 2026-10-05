@@ -1,0 +1,121 @@
+{
+  "model": "/home/maria/phasediag/data/revision/train_split/lift/bc_50_seed42.pt",
+  "model_sha256": "2eab6c0d3c4dcf04331c07969f9890499f06faf5fd16e1b3ec60fd7b8f77248e",
+  "dataset_sha256": "36f21a8530b6c3b9421c41281f68d280612a8a7581ba692b3314408fdf25e1a0",
+  "manifest_sha256": "12459ac987c32013b02b516995d9bf3be0e503fee08038de65f8c976dd903b9e",
+  "continuation_budget": 1600,
+  "evaluation_split": "valid",
+  "training_metadata_sha256": "0a557e84d4d1eef7cd8d6061bf81243b5d5b8e766ee452a3ed542f80a7df775f",
+  "records": [
+    {
+      "demo": "demo_23",
+      "phase": "Approach",
+      "index": 67,
+      "success_step": null,
+      "reason": "horizon",
+      "steps_executed": 1600,
+      "prefix_state_error": 8.180530994793111e-17,
+      "restored_state_error": 0.0,
+      "initially_successful": false
+    },
+    {
+      "demo": "demo_23",
+      "phase": "Pre-grasp",
+      "index": 269,
+      "success_step": 20,
+      "reason": "success",
+      "steps_executed": 20,
+      "prefix_state_error": 2.328387482819494e-12,
+      "restored_state_error": 0.0,
+      "initially_successful": false
+    },
+    {
+      "demo": "demo_23",
+      "phase": "Grasp",
+      "index": 270,
+      "success_step": 20,
+      "reason": "success",
+      "steps_executed": 20,
+      "prefix_state_error": 1.8405290312661915e-12,
+      "restored_state_error": 0.0,
+      "initially_successful": false
+    },
+    {
+      "demo": "demo_23",
+      "phase": "Post-grasp",
+      "index": 286,
+      "success_step": 14,
+      "reason": "success",
+      "steps_executed": 14,
+      "prefix_state_error": 3.353211805445788e-13,
+      "restored_state_error": 0.0,
+      "initially_successful": false
+    },
+    {
+      "demo": "demo_23",
+      "phase": "Pre-success",
+      "index": 301,
+      "success_step": 1,
+      "reason": "success",
+      "steps_executed": 1,
+      "prefix_state_error": 8.968936704434327e-13,
+      "restored_state_error": 0.0,
+      "initially_successful": false
+    },
+    {
+      "demo": "demo_24",
+      "phase": "Approach",
+      "index": 63,
+      "success_step": null,
+      "reason": "horizon",
+      "steps_executed": 1600,
+      "prefix_state_error": 1.7512033489985868e-15,
+      "restored_state_error": 0.0,
+      "initially_successful": false
+    },
+    {
+      "demo": "demo_24",
+      "phase": "Pre-grasp",
+      "index": 247,
+      "success_step": 71,
+      "reason": "success",
+      "steps_executed": 71,
+      "prefix_state_error": 3.812228310806631e-14,
+      "restored_state_error": 0.0,
+      "initially_successful": false
+    },
+    {
+      "demo": "demo_24",
+      "phase": "Grasp",
+      "index": 248,
+      "success_step": 72,
+      "reason": "success",
+      "steps_executed": 72,
+      "prefix_state_error": 2.1926904736346842e-14,
+      "restored_state_error": 0.0,
+      "initially_successful": false
+    },
+    {
+      "demo": "demo_24",
+      "phase": "Post-grasp",
+      "index": 262,
+      "success_step": 73,
+      "reason": "success",
+      "steps_executed": 73,
+      "prefix_state_error": 9.686479049419994e-15,
+      "restored_state_error": 0.0,
+      "initially_successful": false
+    },
+    {
+      "demo": "demo_24",
+      "phase": "Pre-success",
+      "index": 276,
+      "success_step": 5,
+      "reason": "success",
+      "steps_executed": 5,
+      "prefix_state_error": 8.851946953214451e-14,
+      "restored_state_error": 0.0,
+      "initially_successful": false
+    }
+  ]
+}
