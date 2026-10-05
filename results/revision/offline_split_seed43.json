@@ -1,0 +1,740 @@
+[
+  {
+    "task": "lift",
+    "epochs": 50,
+    "seed": 43,
+    "model": "data/revision/train_split/lift/bc_50_seed43.pt",
+    "split": "train",
+    "transition_weighted_mse": 0.01924257499538468,
+    "demo_mean_mse": 0.023051416253613656,
+    "per_demo": [
+      {
+        "demo": "demo_1",
+        "transitions": 1591,
+        "mse": 0.016570799264916447
+      },
+      {
+        "demo": "demo_10",
+        "transitions": 230,
+        "mse": 0.02268375524266614
+      },
+      {
+        "demo": "demo_11",
+        "transitions": 313,
+        "mse": 0.018174846820950656
+      },
+      {
+        "demo": "demo_12",
+        "transitions": 508,
+        "mse": 0.013780448547710846
+      },
+      {
+        "demo": "demo_13",
+        "transitions": 427,
+        "mse": 0.03369871538273039
+      },
+      {
+        "demo": "demo_14",
+        "transitions": 372,
+        "mse": 0.016906726939403826
+      },
+      {
+        "demo": "demo_15",
+        "transitions": 495,
+        "mse": 0.032668668742363446
+      },
+      {
+        "demo": "demo_16",
+        "transitions": 718,
+        "mse": 0.033823593218712575
+      },
+      {
+        "demo": "demo_17",
+        "transitions": 298,
+        "mse": 0.016365281752503333
+      },
+      {
+        "demo": "demo_18",
+        "transitions": 252,
+        "mse": 0.02051354045924217
+      },
+      {
+        "demo": "demo_19",
+        "transitions": 326,
+        "mse": 0.016612877633836
+      },
+      {
+        "demo": "demo_2",
+        "transitions": 4763,
+        "mse": 0.01151738512100405
+      },
+      {
+        "demo": "demo_20",
+        "transitions": 338,
+        "mse": 0.01746278397311168
+      },
+      {
+        "demo": "demo_21",
+        "transitions": 391,
+        "mse": 0.018097936026415146
+      },
+      {
+        "demo": "demo_22",
+        "transitions": 419,
+        "mse": 0.030798273543771928
+      },
+      {
+        "demo": "demo_25",
+        "transitions": 293,
+        "mse": 0.022036465865665638
+      },
+      {
+        "demo": "demo_3",
+        "transitions": 730,
+        "mse": 0.03463211990372639
+      },
+      {
+        "demo": "demo_4",
+        "transitions": 1992,
+        "mse": 0.007182548041182123
+      },
+      {
+        "demo": "demo_5",
+        "transitions": 712,
+        "mse": 0.02618328292180658
+      },
+      {
+        "demo": "demo_6",
+        "transitions": 836,
+        "mse": 0.025578262661007264
+      },
+      {
+        "demo": "demo_7",
+        "transitions": 784,
+        "mse": 0.019373933533411877
+      },
+      {
+        "demo": "demo_8",
+        "transitions": 602,
+        "mse": 0.03272408427354169
+      },
+      {
+        "demo": "demo_9",
+        "transitions": 512,
+        "mse": 0.04279624396343386
+      }
+    ]
+  },
+  {
+    "task": "lift",
+    "epochs": 50,
+    "seed": 43,
+    "model": "data/revision/train_split/lift/bc_50_seed43.pt",
+    "split": "valid",
+    "transition_weighted_mse": 0.019266250251840377,
+    "demo_mean_mse": 0.01926512582094321,
+    "per_demo": [
+      {
+        "demo": "demo_23",
+        "transitions": 313,
+        "mse": 0.019292157139711053
+      },
+      {
+        "demo": "demo_24",
+        "transitions": 288,
+        "mse": 0.01923809450217537
+      }
+    ]
+  },
+  {
+    "task": "lift",
+    "epochs": 500,
+    "seed": 43,
+    "model": "data/revision/train_split/lift/bc_500_seed43.pt",
+    "split": "train",
+    "transition_weighted_mse": 0.013429044700573944,
+    "demo_mean_mse": 0.01632877008936658,
+    "per_demo": [
+      {
+        "demo": "demo_1",
+        "transitions": 1591,
+        "mse": 0.00966213518501547
+      },
+      {
+        "demo": "demo_10",
+        "transitions": 230,
+        "mse": 0.01640444018667111
+      },
+      {
+        "demo": "demo_11",
+        "transitions": 313,
+        "mse": 0.012163387483151048
+      },
+      {
+        "demo": "demo_12",
+        "transitions": 508,
+        "mse": 0.011544571803592937
+      },
+      {
+        "demo": "demo_13",
+        "transitions": 427,
+        "mse": 0.022411091020484192
+      },
+      {
+        "demo": "demo_14",
+        "transitions": 372,
+        "mse": 0.012650560770843625
+      },
+      {
+        "demo": "demo_15",
+        "transitions": 495,
+        "mse": 0.026973205359044926
+      },
+      {
+        "demo": "demo_16",
+        "transitions": 718,
+        "mse": 0.026721706949987017
+      },
+      {
+        "demo": "demo_17",
+        "transitions": 298,
+        "mse": 0.011808579192303902
+      },
+      {
+        "demo": "demo_18",
+        "transitions": 252,
+        "mse": 0.012155579811339998
+      },
+      {
+        "demo": "demo_19",
+        "transitions": 326,
+        "mse": 0.012260699421540686
+      },
+      {
+        "demo": "demo_2",
+        "transitions": 4763,
+        "mse": 0.007149762140611202
+      },
+      {
+        "demo": "demo_20",
+        "transitions": 338,
+        "mse": 0.01093496461502733
+      },
+      {
+        "demo": "demo_21",
+        "transitions": 391,
+        "mse": 0.01202094271148297
+      },
+      {
+        "demo": "demo_22",
+        "transitions": 419,
+        "mse": 0.020459058291746872
+      },
+      {
+        "demo": "demo_25",
+        "transitions": 293,
+        "mse": 0.012919960148833778
+      },
+      {
+        "demo": "demo_3",
+        "transitions": 730,
+        "mse": 0.02761233557789385
+      },
+      {
+        "demo": "demo_4",
+        "transitions": 1992,
+        "mse": 0.0054078267920473246
+      },
+      {
+        "demo": "demo_5",
+        "transitions": 712,
+        "mse": 0.0192084285528227
+      },
+      {
+        "demo": "demo_6",
+        "transitions": 836,
+        "mse": 0.01770888547956733
+      },
+      {
+        "demo": "demo_7",
+        "transitions": 784,
+        "mse": 0.012983646930664785
+      },
+      {
+        "demo": "demo_8",
+        "transitions": 602,
+        "mse": 0.021623184244839097
+      },
+      {
+        "demo": "demo_9",
+        "transitions": 512,
+        "mse": 0.03277675938591922
+      }
+    ]
+  },
+  {
+    "task": "lift",
+    "epochs": 500,
+    "seed": 43,
+    "model": "data/revision/train_split/lift/bc_500_seed43.pt",
+    "split": "valid",
+    "transition_weighted_mse": 0.017247002329690956,
+    "demo_mean_mse": 0.01738348930696423,
+    "per_demo": [
+      {
+        "demo": "demo_23",
+        "transitions": 313,
+        "mse": 0.014102342373314708
+      },
+      {
+        "demo": "demo_24",
+        "transitions": 288,
+        "mse": 0.02066463624061375
+      }
+    ]
+  },
+  {
+    "task": "stack",
+    "epochs": 50,
+    "seed": 43,
+    "model": "data/revision/train_split/stack/bc_50_seed43.pt",
+    "split": "train",
+    "transition_weighted_mse": 0.027453082439152517,
+    "demo_mean_mse": 0.02755702904616599,
+    "per_demo": [
+      {
+        "demo": "demo_1",
+        "transitions": 892,
+        "mse": 0.029241241137665644
+      },
+      {
+        "demo": "demo_10",
+        "transitions": 673,
+        "mse": 0.044439435792880046
+      },
+      {
+        "demo": "demo_11",
+        "transitions": 671,
+        "mse": 0.028597017629625587
+      },
+      {
+        "demo": "demo_12",
+        "transitions": 403,
+        "mse": 0.02542198168842971
+      },
+      {
+        "demo": "demo_13",
+        "transitions": 735,
+        "mse": 0.03203569786754095
+      },
+      {
+        "demo": "demo_14",
+        "transitions": 526,
+        "mse": 0.030950118394909805
+      },
+      {
+        "demo": "demo_15",
+        "transitions": 648,
+        "mse": 0.027755519032078586
+      },
+      {
+        "demo": "demo_16",
+        "transitions": 660,
+        "mse": 0.03392288800993509
+      },
+      {
+        "demo": "demo_17",
+        "transitions": 609,
+        "mse": 0.015873159263763554
+      },
+      {
+        "demo": "demo_18",
+        "transitions": 733,
+        "mse": 0.033490811007022676
+      },
+      {
+        "demo": "demo_2",
+        "transitions": 913,
+        "mse": 0.020783166271345285
+      },
+      {
+        "demo": "demo_20",
+        "transitions": 1084,
+        "mse": 0.01809860777117612
+      },
+      {
+        "demo": "demo_21",
+        "transitions": 679,
+        "mse": 0.01876089504543266
+      },
+      {
+        "demo": "demo_22",
+        "transitions": 315,
+        "mse": 0.028263254176145246
+      },
+      {
+        "demo": "demo_23",
+        "transitions": 518,
+        "mse": 0.04128796741475894
+      },
+      {
+        "demo": "demo_24",
+        "transitions": 548,
+        "mse": 0.017874889667463936
+      },
+      {
+        "demo": "demo_25",
+        "transitions": 715,
+        "mse": 0.03192799772561393
+      },
+      {
+        "demo": "demo_26",
+        "transitions": 522,
+        "mse": 0.03356938471803593
+      },
+      {
+        "demo": "demo_28",
+        "transitions": 565,
+        "mse": 0.02776178945350407
+      },
+      {
+        "demo": "demo_29",
+        "transitions": 559,
+        "mse": 0.016901902273775932
+      },
+      {
+        "demo": "demo_30",
+        "transitions": 446,
+        "mse": 0.02374652546253889
+      },
+      {
+        "demo": "demo_31",
+        "transitions": 636,
+        "mse": 0.01754907478078107
+      },
+      {
+        "demo": "demo_32",
+        "transitions": 804,
+        "mse": 0.023442999919646608
+      },
+      {
+        "demo": "demo_33",
+        "transitions": 1227,
+        "mse": 0.02695983813002348
+      },
+      {
+        "demo": "demo_34",
+        "transitions": 434,
+        "mse": 0.020718581548374616
+      },
+      {
+        "demo": "demo_35",
+        "transitions": 519,
+        "mse": 0.025783612204157192
+      },
+      {
+        "demo": "demo_36",
+        "transitions": 495,
+        "mse": 0.03239635979551937
+      },
+      {
+        "demo": "demo_37",
+        "transitions": 533,
+        "mse": 0.024745227680154608
+      },
+      {
+        "demo": "demo_38",
+        "transitions": 824,
+        "mse": 0.02249368377883923
+      },
+      {
+        "demo": "demo_39",
+        "transitions": 882,
+        "mse": 0.04166501812237626
+      },
+      {
+        "demo": "demo_4",
+        "transitions": 997,
+        "mse": 0.036533773244141296
+      },
+      {
+        "demo": "demo_40",
+        "transitions": 470,
+        "mse": 0.02038968039752366
+      },
+      {
+        "demo": "demo_6",
+        "transitions": 478,
+        "mse": 0.031810818673679374
+      },
+      {
+        "demo": "demo_7",
+        "transitions": 472,
+        "mse": 0.04315812128548434
+      },
+      {
+        "demo": "demo_8",
+        "transitions": 786,
+        "mse": 0.012648289899738038
+      },
+      {
+        "demo": "demo_9",
+        "transitions": 498,
+        "mse": 0.031053716397894008
+      }
+    ]
+  },
+  {
+    "task": "stack",
+    "epochs": 50,
+    "seed": 43,
+    "model": "data/revision/train_split/stack/bc_50_seed43.pt",
+    "split": "valid",
+    "transition_weighted_mse": 0.029953834618468844,
+    "demo_mean_mse": 0.03028536510106139,
+    "per_demo": [
+      {
+        "demo": "demo_19",
+        "transitions": 660,
+        "mse": 0.04295919504321431
+      },
+      {
+        "demo": "demo_27",
+        "transitions": 469,
+        "mse": 0.028028142631611012
+      },
+      {
+        "demo": "demo_3",
+        "transitions": 767,
+        "mse": 0.0206254867617612
+      },
+      {
+        "demo": "demo_5",
+        "transitions": 1236,
+        "mse": 0.029528635967659034
+      }
+    ]
+  },
+  {
+    "task": "stack",
+    "epochs": 500,
+    "seed": 43,
+    "model": "data/revision/train_split/stack/bc_500_seed43.pt",
+    "split": "train",
+    "transition_weighted_mse": 0.021997748816819297,
+    "demo_mean_mse": 0.02201193377201978,
+    "per_demo": [
+      {
+        "demo": "demo_1",
+        "transitions": 892,
+        "mse": 0.02138176978594149
+      },
+      {
+        "demo": "demo_10",
+        "transitions": 673,
+        "mse": 0.03725210580903431
+      },
+      {
+        "demo": "demo_11",
+        "transitions": 671,
+        "mse": 0.023633853139554954
+      },
+      {
+        "demo": "demo_12",
+        "transitions": 403,
+        "mse": 0.020850181892584498
+      },
+      {
+        "demo": "demo_13",
+        "transitions": 735,
+        "mse": 0.020427426843071205
+      },
+      {
+        "demo": "demo_14",
+        "transitions": 526,
+        "mse": 0.02638028624989864
+      },
+      {
+        "demo": "demo_15",
+        "transitions": 648,
+        "mse": 0.02203217550358114
+      },
+      {
+        "demo": "demo_16",
+        "transitions": 660,
+        "mse": 0.028962175565298703
+      },
+      {
+        "demo": "demo_17",
+        "transitions": 609,
+        "mse": 0.013139876150778693
+      },
+      {
+        "demo": "demo_18",
+        "transitions": 733,
+        "mse": 0.025120621724477977
+      },
+      {
+        "demo": "demo_2",
+        "transitions": 913,
+        "mse": 0.015999255275595006
+      },
+      {
+        "demo": "demo_20",
+        "transitions": 1084,
+        "mse": 0.01710860943894698
+      },
+      {
+        "demo": "demo_21",
+        "transitions": 679,
+        "mse": 0.015442233882363095
+      },
+      {
+        "demo": "demo_22",
+        "transitions": 315,
+        "mse": 0.01871863591640897
+      },
+      {
+        "demo": "demo_23",
+        "transitions": 518,
+        "mse": 0.033787119703365974
+      },
+      {
+        "demo": "demo_24",
+        "transitions": 548,
+        "mse": 0.014665578569729111
+      },
+      {
+        "demo": "demo_25",
+        "transitions": 715,
+        "mse": 0.027785576850864666
+      },
+      {
+        "demo": "demo_26",
+        "transitions": 522,
+        "mse": 0.019614790325984812
+      },
+      {
+        "demo": "demo_28",
+        "transitions": 565,
+        "mse": 0.02185721446287403
+      },
+      {
+        "demo": "demo_29",
+        "transitions": 559,
+        "mse": 0.014445334375519711
+      },
+      {
+        "demo": "demo_30",
+        "transitions": 446,
+        "mse": 0.018968317899212737
+      },
+      {
+        "demo": "demo_31",
+        "transitions": 636,
+        "mse": 0.01350188888395903
+      },
+      {
+        "demo": "demo_32",
+        "transitions": 804,
+        "mse": 0.017337818939378396
+      },
+      {
+        "demo": "demo_33",
+        "transitions": 1227,
+        "mse": 0.022168388099808128
+      },
+      {
+        "demo": "demo_34",
+        "transitions": 434,
+        "mse": 0.016885199600961173
+      },
+      {
+        "demo": "demo_35",
+        "transitions": 519,
+        "mse": 0.020990376451262553
+      },
+      {
+        "demo": "demo_36",
+        "transitions": 495,
+        "mse": 0.026761170108219306
+      },
+      {
+        "demo": "demo_37",
+        "transitions": 533,
+        "mse": 0.01476065089875904
+      },
+      {
+        "demo": "demo_38",
+        "transitions": 824,
+        "mse": 0.02052053979250932
+      },
+      {
+        "demo": "demo_39",
+        "transitions": 882,
+        "mse": 0.03079082426050877
+      },
+      {
+        "demo": "demo_4",
+        "transitions": 997,
+        "mse": 0.03165590854902944
+      },
+      {
+        "demo": "demo_40",
+        "transitions": 470,
+        "mse": 0.017236941084084405
+      },
+      {
+        "demo": "demo_6",
+        "transitions": 478,
+        "mse": 0.023082754748954475
+      },
+      {
+        "demo": "demo_7",
+        "transitions": 472,
+        "mse": 0.03774228311170624
+      },
+      {
+        "demo": "demo_8",
+        "transitions": 786,
+        "mse": 0.009833182362580462
+      },
+      {
+        "demo": "demo_9",
+        "transitions": 498,
+        "mse": 0.03158854953590449
+      }
+    ]
+  },
+  {
+    "task": "stack",
+    "epochs": 500,
+    "seed": 43,
+    "model": "data/revision/train_split/stack/bc_500_seed43.pt",
+    "split": "valid",
+    "transition_weighted_mse": 0.037954186890834365,
+    "demo_mean_mse": 0.042036532836884154,
+    "per_demo": [
+      {
+        "demo": "demo_19",
+        "transitions": 660,
+        "mse": 0.029379400995807332
+      },
+      {
+        "demo": "demo_27",
+        "transitions": 469,
+        "mse": 0.07636391452098837
+      },
+      {
+        "demo": "demo_3",
+        "transitions": 767,
+        "mse": 0.028704579088014777
+      },
+      {
+        "demo": "demo_5",
+        "transitions": 1236,
+        "mse": 0.033698236742726144
+      }
+    ]
+  }
+]

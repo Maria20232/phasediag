@@ -1,0 +1,21 @@
+Task: stack
+Training: 36 demos, 23469 transitions
+Held out: ['demo_3', 'demo_5', 'demo_19', 'demo_27']
+Dimensions: observations=32, actions=7
+Output directory: data/revision/train_split/stack
+/home/maria/miniconda3/envs/vla/lib/python3.11/site-packages/torch/cuda/__init__.py:188: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11060). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /__w/pytorch/pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  return torch._C._cuda_getDeviceCount() > 0
+Random seed: 43
+Epoch 1: train MSE=0.079500
+Epoch 50: train MSE=0.028677
+Saved: data/revision/train_split/stack/bc_50_seed43.pt
+Epoch 100: train MSE=0.026147
+Epoch 150: train MSE=0.025434
+Epoch 200: train MSE=0.024922
+Epoch 250: train MSE=0.024693
+Epoch 300: train MSE=0.023806
+Epoch 350: train MSE=0.023263
+Epoch 400: train MSE=0.022906
+Epoch 450: train MSE=0.022820
+Epoch 500: train MSE=0.022484
+Saved: data/revision/train_split/stack/bc_500_seed43.pt

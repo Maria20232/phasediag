@@ -1,3 +1,4 @@
+import argparse
 import json
 from pathlib import Path
 
@@ -7,13 +8,16 @@ import torch
 
 from train_bc import BCPolicy, OBS_KEYS
 
+parser = argparse.ArgumentParser()
+parser.add_argument("--seed", type=int, default=42)
+args = parser.parse_args()
 results = []
 
 for task in ("lift", "stack"):
     with h5py.File(f"data/demos_{task}/low_dim.hdf5", "r") as f:
         for epochs in (50, 500):
             model = Path(
-                f"data/revision/train_split/{task}/bc_{epochs}_seed42.pt"
+                f"data/revision/train_split/{task}/bc_{epochs}_seed{args.seed}.pt"
             )
             state_dict = torch.load(
                 model, map_location="cpu", weights_only=True
@@ -53,7 +57,7 @@ for task in ("lift", "stack"):
                     })
 
                 record = {
-                    "task": task, "epochs": epochs, "seed": 42,
+                    "task": task, "epochs": epochs, "seed": args.seed,
                     "model": str(model), "split": split,
                     "transition_weighted_mse": squared_error / elements,
                     "demo_mean_mse": float(np.mean(
@@ -69,7 +73,7 @@ for task in ("lift", "stack"):
                     flush=True,
                 )
 
-output = Path("results/revision/offline_split_seed42.json")
+output = Path(f"results/revision/offline_split_seed{args.seed}.json")
 if output.exists():
     raise SystemExit(f"Already exists: {output}")
 output.write_text(json.dumps(results, indent=2) + "\n")
