@@ -1,0 +1,63 @@
+[robosuite WARNING] No private macro file found! (macros.py:57)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:58)
+[robosuite WARNING] To setup, run: python /home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (macros.py:59)
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly, otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/controllers/config/robots/default_panda.json (composite_controller_factory.py:121)
+BC-50 seeds:  [42, 43, 44, 45, 46, 47, 48]
+BC-500 seeds: [42, 43, 44, 45, 46, 47, 48]
+MC-Dropout samples per state: 30
+
+Creating Lift environment...
+Detecting semantic phases (reusing phase_recovery logic)...
+
+Computing entropy for BC-50 seed 42...
+
+Computing entropy for BC-50 seed 43...
+
+Computing entropy for BC-50 seed 44...
+
+Computing entropy for BC-50 seed 45...
+
+Computing entropy for BC-50 seed 46...
+
+Computing entropy for BC-50 seed 47...
+
+Computing entropy for BC-50 seed 48...
+Computing entropy for BC-500 seed 42...
+Computing entropy for BC-500 seed 43...
+Computing entropy for BC-500 seed 44...
+Computing entropy for BC-500 seed 45...
+Computing entropy for BC-500 seed 46...
+Computing entropy for BC-500 seed 47...
+Computing entropy for BC-500 seed 48...
+
+==============================================================================
+BC-50: MEAN ACTION-SPACE ENTROPY BY PHASE (MC-Dropout proxy)
+==============================================================================
+Phase         Mean Entropy    Std       N     
+------------------------------------------------------------------------------
+Approach      -36.137         1.986     175   
+Pre-grasp     -35.811         1.915     175   
+Grasp         -36.252         1.800     175   
+Post-grasp    -36.274         1.718     175   
+Pre-success   -34.545         2.638     175   
+==============================================================================
+
+==============================================================================
+BC-500: MEAN ACTION-SPACE ENTROPY BY PHASE (MC-Dropout proxy)
+==============================================================================
+Phase         Mean Entropy    Std       N     
+------------------------------------------------------------------------------
+Approach      -36.089         4.310     175   
+Pre-grasp     -36.349         2.642     175   
+Grasp         -36.398         2.610     175   
+Post-grasp    -36.609         2.450     175   
+Pre-success   -33.610         3.334     175   
+==============================================================================
+
+NOTE: cross-reference these mean-entropy-per-phase numbers against
+phase_recovery.py's success-rate-per-phase output (Table IV) by eye,
+or pass the printed success rates into --success_rates if you extend
+this script. A rising entropy trend as phase success drops would
+support the 'confusion' hypothesis; a flat or inverted trend would not.
