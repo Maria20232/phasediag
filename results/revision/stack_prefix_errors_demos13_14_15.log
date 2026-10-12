@@ -1,0 +1,32 @@
+[robosuite WARNING] No private macro file found! (macros.py:57)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:58)
+[robosuite WARNING] To setup, run: python /home/maria/miniconda3/envs/vla/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (macros.py:59)
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly, otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/envs/vla/lib/python3.11/site-packages/robosuite/controllers/config/robots/default_panda.json (composite_controller_factory.py:121)
+demo_13 | Approach | qpos_error=1.23882e-17 | qvel_error=3.073357e-16
+demo_13 | Approach | index=36 | state_error=3.073357e-16 | initial_success=False
+demo_13 | Grasp-transport | qpos_error=0.00079343279 | qvel_error=0.0002646252
+demo_13 | Grasp-transport | index=585 | state_error=0.00079343279 | initial_success=False
+demo_13 | Near-placement | qpos_error=0.00095077168 | qvel_error=0.0021935441
+demo_13 | Near-placement | index=629 | state_error=0.0021935441 | initial_success=False
+demo_13 | expert_success_step=724
+demo_14 | Approach | qpos_error=1.352951e-17 | qvel_error=3.4867942e-16
+demo_14 | Approach | index=26 | state_error=3.4867942e-16 | initial_success=False
+demo_14 | Grasp-transport | qpos_error=9.169332e-13 | qvel_error=3.6279174e-12
+demo_14 | Grasp-transport | index=371 | state_error=3.6279174e-12 | initial_success=False
+demo_14 | Near-placement | qpos_error=9.1119848e-06 | qvel_error=0.00026234988
+demo_14 | Near-placement | index=466 | state_error=0.00026234988 | initial_success=False
+demo_14 | expert_success_step=515
+demo_15 | Approach | qpos_error=5.2765634e-18 | qvel_error=3.3957922e-16
+demo_15 | Approach | index=32 | state_error=3.3957922e-16 | initial_success=False
+demo_15 | Grasp-transport | qpos_error=3.6027845e-07 | qvel_error=0.00080002273
+demo_15 | Grasp-transport | index=474 | state_error=0.00080002273 | initial_success=False
+demo_15 | Near-placement | qpos_error=1.3225378e-05 | qvel_error=0.00052485423
+demo_15 | Near-placement | index=564 | state_error=0.00052485423 | initial_success=False
+demo_15 | expert_success_step=637
+
+SUMMARY
+Expert replay successes: 3 / 3
+Phase states checked: 9
+Largest phase-state error: 0.002193544104182139

@@ -1,0 +1,227 @@
+nohup: ignoring input
+[robosuite WARNING] No private macro file found! (macros.py:57)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:58)
+[robosuite WARNING] To setup, run: python /home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (macros.py:59)
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly, otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+Found Diffusion Policy seeds: [42]
+
+Creating Lift environment...
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/controllers/config/robots/default_panda.json (composite_controller_factory.py:121)
+
+Detecting semantic phases (same protocol as BC-50/BC-500)...
+  demo_1: Approach=400, Pre-grasp=846, Grasp=847, Post-grasp=1213, Pre-success=1579
+  demo_2: Approach=1908, Pre-grasp=4537, Grasp=4538, Post-grasp=4645, Pre-success=4751
+  demo_3: Approach=231, Pre-grasp=676, Grasp=677, Post-grasp=698, Pre-success=718
+  demo_4: Approach=817, Pre-grasp=1900, Grasp=1901, Post-grasp=1941, Pre-success=1980
+  demo_5: Approach=174, Pre-grasp=640, Grasp=641, Post-grasp=671, Pre-success=700
+  demo_6: Approach=213, Pre-grasp=469, Grasp=470, Post-grasp=647, Pre-success=824
+  demo_7: Approach=149, Pre-grasp=343, Grasp=344, Post-grasp=558, Pre-success=772
+  demo_8: Approach=188, Pre-grasp=451, Grasp=452, Post-grasp=521, Pre-success=590
+  demo_9: Approach=166, Pre-grasp=458, Grasp=459, Post-grasp=480, Pre-success=500
+  demo_10: Approach=79, Pre-grasp=183, Grasp=184, Post-grasp=201, Pre-success=218
+  demo_11: Approach=109, Pre-grasp=272, Grasp=273, Post-grasp=287, Pre-success=301
+  demo_12: Approach=202, Pre-grasp=450, Grasp=451, Post-grasp=474, Pre-success=496
+  demo_13: Approach=107, Pre-grasp=253, Grasp=254, Post-grasp=335, Pre-success=415
+  demo_14: Approach=123, Pre-grasp=324, Grasp=325, Post-grasp=343, Pre-success=360
+  demo_15: Approach=108, Pre-grasp=454, Grasp=455, Post-grasp=469, Pre-success=483
+  demo_16: Approach=69, Pre-grasp=667, Grasp=668, Post-grasp=687, Pre-success=706
+  demo_17: Approach=99, Pre-grasp=255, Grasp=256, Post-grasp=271, Pre-success=286
+  demo_18: Approach=88, Pre-grasp=208, Grasp=209, Post-grasp=225, Pre-success=240
+  demo_19: Approach=106, Pre-grasp=277, Grasp=278, Post-grasp=296, Pre-success=314
+  demo_20: Approach=103, Pre-grasp=287, Grasp=288, Post-grasp=307, Pre-success=326
+  demo_21: Approach=83, Pre-grasp=343, Grasp=344, Post-grasp=362, Pre-success=379
+  demo_22: Approach=91, Pre-grasp=220, Grasp=221, Post-grasp=314, Pre-success=407
+  demo_23: Approach=67, Pre-grasp=267, Grasp=268, Post-grasp=285, Pre-success=301
+  demo_24: Approach=63, Pre-grasp=247, Grasp=248, Post-grasp=262, Pre-success=276
+  demo_25: Approach=99, Pre-grasp=242, Grasp=243, Post-grasp=262, Pre-success=281
+
+Loading Diffusion Policy (seed 42) from /home/maria/robosuite_work/demos_lift/diffusion_200_seed42.pt...
+
+======================================================================
+EVALUATING Diffusion Policy (seed 42)
+======================================================================
+
+demo_1
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (1 steps)
+
+demo_2
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (16 steps)
+  Grasp       : SUCCESS (22 steps)
+  Post-grasp  : SUCCESS (26 steps)
+  Pre-success : SUCCESS (9 steps)
+
+demo_3
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : FAIL (horizon)
+
+demo_4
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : SUCCESS (64 steps)
+  Pre-success : FAIL (horizon)
+
+demo_5
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : SUCCESS (11 steps)
+  Post-grasp  : SUCCESS (18 steps)
+  Pre-success : FAIL (horizon)
+
+demo_6
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (5 steps)
+
+demo_7
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (156 steps)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (23 steps)
+
+demo_8
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (2 steps)
+
+demo_9
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (20 steps)
+  Grasp       : SUCCESS (22 steps)
+  Post-grasp  : SUCCESS (23 steps)
+  Pre-success : FAIL (horizon)
+
+demo_10
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : FAIL (horizon)
+
+demo_11
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (30 steps)
+  Grasp       : SUCCESS (9 steps)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : FAIL (horizon)
+
+demo_12
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (7 steps)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : SUCCESS (49 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_13
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (4 steps)
+
+demo_14
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (20 steps)
+  Grasp       : SUCCESS (27 steps)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (1 steps)
+
+demo_15
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : SUCCESS (10 steps)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : FAIL (horizon)
+
+demo_16
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (8 steps)
+  Grasp       : SUCCESS (70 steps)
+  Post-grasp  : SUCCESS (12 steps)
+  Pre-success : FAIL (horizon)
+
+demo_17
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (4 steps)
+  Grasp       : SUCCESS (25 steps)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : FAIL (horizon)
+
+demo_18
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (3 steps)
+
+demo_19
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (23 steps)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (2 steps)
+
+demo_20
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (51 steps)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : SUCCESS (34 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_21
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (6 steps)
+  Grasp       : SUCCESS (62 steps)
+  Post-grasp  : SUCCESS (10 steps)
+  Pre-success : FAIL (horizon)
+
+demo_22
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (4 steps)
+
+demo_23
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : SUCCESS (29 steps)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (2 steps)
+
+demo_24
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (40 steps)
+  Grasp       : SUCCESS (25 steps)
+  Post-grasp  : SUCCESS (29 steps)
+  Pre-success : FAIL (horizon)
+
+demo_25
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (12 steps)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : FAIL (horizon)
+
+======================================================================
+Diffusion Policy (seed 42) PHASE RESULTS
+======================================================================
+Approach     |  0/25 |    0.0% | mean success steps=nan
+Pre-grasp    | 13/25 |   52.0% | mean success steps=30.2
+Grasp        | 11/25 |   44.0% | mean success steps=28.4
+Post-grasp   |  9/25 |   36.0% | mean success steps=29.4
+Pre-success  | 13/25 |   52.0% | mean success steps=4.5

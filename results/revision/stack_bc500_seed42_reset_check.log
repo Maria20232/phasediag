@@ -1,0 +1,107 @@
+[robosuite WARNING] No private macro file found! (macros.py:57)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:58)
+[robosuite WARNING] To setup, run: python /home/maria/miniconda3/envs/vla/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (macros.py:59)
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly, otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/envs/vla/lib/python3.11/site-packages/robosuite/controllers/config/robots/default_panda.json (composite_controller_factory.py:121)
+Loading policy...
+Creating Stack environment...
+
+Loading demos from data/demos_stack/low_dim.hdf5 ...
+
+demo_1: detecting phases...
+  found: {'Approach': 44, 'Grasp-transport': 377, 'Near-placement': 418}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_2: detecting phases...
+  found: {'Approach': 45, 'Grasp-transport': 488, 'Near-placement': 519}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : SUCCESS (282 steps)
+  Near-placement  : SUCCESS (274 steps)
+
+demo_3: detecting phases...
+  found: {'Approach': 38, 'Grasp-transport': 592, 'Near-placement': 684}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_4: detecting phases...
+  found: {'Approach': 49, 'Grasp-transport': 583, 'Near-placement': 615}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : SUCCESS (386 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_5: detecting phases...
+  found: {'Approach': 61, 'Grasp-transport': 527, 'Near-placement': 650}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : SUCCESS (434 steps)
+  Near-placement  : SUCCESS (190 steps)
+
+demo_6: detecting phases...
+  found: {'Approach': 23, 'Grasp-transport': 288, 'Near-placement': 335}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_7: detecting phases...
+  found: {'Approach': 23, 'Grasp-transport': 362, 'Near-placement': 400}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_8: detecting phases...
+  found: {'Approach': 39, 'Grasp-transport': 623, 'Near-placement': 659}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_9: detecting phases...
+  found: {'Approach': 24, 'Grasp-transport': 350, 'Near-placement': 400}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_10: detecting phases...
+  found: {'Approach': 33, 'Grasp-transport': 558, 'Near-placement': 604}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_11: detecting phases...
+  found: {'Approach': 33, 'Grasp-transport': 398, 'Near-placement': 521}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_12: detecting phases...
+  found: {'Approach': 20, 'Grasp-transport': 255, 'Near-placement': 293}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_13: detecting phases...
+  found: {'Approach': 36, 'Grasp-transport': 585, 'Near-placement': 629}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_14: detecting phases...
+  found: {'Approach': 26, 'Grasp-transport': 371, 'Near-placement': 466}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_15: detecting phases...
+  found: {'Approach': 32, 'Grasp-transport': 474, 'Near-placement': 564}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+============================================================
+STACK PHASE-CONDITIONED RESULTS (compact, single model)
+============================================================
+Approach         | 0/15 | 0.0% (skipped: 0)
+Grasp-transport  | 3/15 | 20.0% (skipped: 0)
+Near-placement   | 2/15 | 13.3% (skipped: 0)

@@ -1,0 +1,49 @@
+{
+  "task": "lift",
+  "seed": 42,
+  "dataset_sha256": "36f21a8530b6c3b9421c41281f68d280612a8a7581ba692b3314408fdf25e1a0",
+  "train_demos": [
+    "demo_1",
+    "demo_2",
+    "demo_3",
+    "demo_4",
+    "demo_5",
+    "demo_6",
+    "demo_7",
+    "demo_8",
+    "demo_9",
+    "demo_10",
+    "demo_11",
+    "demo_12",
+    "demo_13",
+    "demo_14",
+    "demo_15",
+    "demo_16",
+    "demo_17",
+    "demo_18",
+    "demo_19",
+    "demo_20",
+    "demo_21",
+    "demo_22",
+    "demo_25"
+  ],
+  "valid_demos": [
+    "demo_23",
+    "demo_24"
+  ],
+  "training_transitions": 17902,
+  "obs_keys": [
+    "robot0_eef_pos",
+    "robot0_eef_quat",
+    "robot0_gripper_qpos",
+    "object"
+  ],
+  "batch_size": 64,
+  "lr": 0.001,
+  "checkpoint_epochs": [
+    50,
+    500
+  ],
+  "torch_version": "2.13.0+cu130",
+  "numpy_version": "1.26.4"
+}

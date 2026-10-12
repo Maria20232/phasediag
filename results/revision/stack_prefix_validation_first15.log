@@ -1,0 +1,71 @@
+[robosuite WARNING] No private macro file found! (macros.py:57)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:58)
+[robosuite WARNING] To setup, run: python /home/maria/miniconda3/envs/vla/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (macros.py:59)
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly, otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/envs/vla/lib/python3.11/site-packages/robosuite/controllers/config/robots/default_panda.json (composite_controller_factory.py:121)
+demo_1 | Approach | index=44 | state_error=3.8845192e-16 | initial_success=False
+demo_1 | Grasp-transport | index=377 | state_error=6.5725203e-14 | initial_success=False
+demo_1 | Near-placement | index=418 | state_error=7.1494893e-14 | initial_success=False
+demo_1 | expert_success_step=545
+demo_2 | Approach | index=45 | state_error=2.8109654e-16 | initial_success=False
+demo_2 | Grasp-transport | index=488 | state_error=3.0221348e-08 | initial_success=False
+demo_2 | Near-placement | index=519 | state_error=1.8870862e-08 | initial_success=False
+demo_2 | expert_success_step=599
+demo_3 | Approach | index=38 | state_error=6.5724336e-16 | initial_success=False
+demo_3 | Grasp-transport | index=592 | state_error=3.3487657e-12 | initial_success=False
+demo_3 | Near-placement | index=684 | state_error=2.8088122e-12 | initial_success=False
+demo_3 | expert_success_step=756
+demo_4 | Approach | index=49 | state_error=4.0047862e-16 | initial_success=False
+demo_4 | Grasp-transport | index=583 | state_error=1.3907209e-12 | initial_success=False
+demo_4 | Near-placement | index=615 | state_error=1.3122281e-12 | initial_success=False
+demo_4 | expert_success_step=664
+demo_5 | Approach | index=61 | state_error=3.5325817e-16 | initial_success=False
+demo_5 | Grasp-transport | index=527 | state_error=4.3715032e-14 | initial_success=False
+demo_5 | Near-placement | index=650 | state_error=5.6032652e-14 | initial_success=False
+demo_5 | expert_success_step=747
+demo_6 | Approach | index=23 | state_error=1.8442514e-16 | initial_success=False
+demo_6 | Grasp-transport | index=288 | state_error=1.4134212e-07 | initial_success=False
+demo_6 | Near-placement | index=335 | state_error=6.2674718e-08 | initial_success=False
+demo_6 | expert_success_step=467
+demo_7 | Approach | index=23 | state_error=1.4463257e-16 | initial_success=False
+demo_7 | Grasp-transport | index=362 | state_error=1.6807666e-12 | initial_success=False
+demo_7 | Near-placement | index=400 | state_error=2.2903901e-12 | initial_success=False
+demo_7 | expert_success_step=461
+demo_8 | Approach | index=39 | state_error=3.5666403e-16 | initial_success=False
+demo_8 | Grasp-transport | index=623 | state_error=4.0717651e-11 | initial_success=False
+demo_8 | Near-placement | index=659 | state_error=4.5515813e-12 | initial_success=False
+demo_8 | expert_success_step=775
+demo_9 | Approach | index=24 | state_error=2.5861913e-16 | initial_success=False
+demo_9 | Grasp-transport | index=350 | state_error=1.4910295e-13 | initial_success=False
+demo_9 | Near-placement | index=400 | state_error=1.6009416e-13 | initial_success=False
+demo_9 | expert_success_step=487
+demo_10 | Approach | index=33 | state_error=1.786455e-16 | initial_success=False
+demo_10 | Grasp-transport | index=558 | state_error=4.5630295e-06 | initial_success=False
+demo_10 | Near-placement | index=604 | state_error=3.6707445e-06 | initial_success=False
+demo_10 | expert_success_step=662
+demo_11 | Approach | index=33 | state_error=3.5131064e-16 | initial_success=False
+demo_11 | Grasp-transport | index=398 | state_error=9.7148491e-11 | initial_success=False
+demo_11 | Near-placement | index=521 | state_error=9.2306521e-07 | initial_success=False
+demo_11 | expert_success_step=660
+demo_12 | Approach | index=20 | state_error=8.508163e-16 | initial_success=False
+demo_12 | Grasp-transport | index=255 | state_error=1.7638253e-08 | initial_success=False
+demo_12 | Near-placement | index=293 | state_error=1.5957096e-08 | initial_success=False
+demo_12 | expert_success_step=392
+demo_13 | Approach | index=36 | state_error=3.073357e-16 | initial_success=False
+demo_13 | Grasp-transport | index=585 | state_error=0.00079343279 | initial_success=False
+demo_13 | Near-placement | index=629 | state_error=0.0021935441 | initial_success=False
+demo_13 | expert_success_step=724
+demo_14 | Approach | index=26 | state_error=3.4867942e-16 | initial_success=False
+demo_14 | Grasp-transport | index=371 | state_error=3.6279174e-12 | initial_success=False
+demo_14 | Near-placement | index=466 | state_error=0.00026234988 | initial_success=False
+demo_14 | expert_success_step=515
+demo_15 | Approach | index=32 | state_error=3.3957922e-16 | initial_success=False
+demo_15 | Grasp-transport | index=474 | state_error=0.00080002273 | initial_success=False
+demo_15 | Near-placement | index=564 | state_error=0.00052485423 | initial_success=False
+demo_15 | expert_success_step=637
+
+SUMMARY
+Expert replay successes: 15 / 15
+Phase states checked: 45
+Largest phase-state error: 0.002193544104182139

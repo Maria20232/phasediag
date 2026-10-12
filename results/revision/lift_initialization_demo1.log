@@ -1,0 +1,11 @@
+[robosuite WARNING] No private macro file found! (macros.py:57)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:58)
+[robosuite WARNING] To setup, run: python /home/maria/miniconda3/envs/vla/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (macros.py:59)
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly, otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/envs/vla/lib/python3.11/site-packages/robosuite/controllers/config/robots/default_panda.json (composite_controller_factory.py:121)
+demo_1 | Approach | index=400 | checks={'prefix_state_error': 3.127958263440706e-16, 'restored_state_error': 0.0, 'initially_successful': False} | expert_success_step=1180
+demo_1 | Pre-grasp | index=850 | checks={'prefix_state_error': 2.7902680166391747e-13, 'restored_state_error': 0.0, 'initially_successful': False} | expert_success_step=730
+demo_1 | Grasp | index=851 | checks={'prefix_state_error': 1.5815126985785355e-13, 'restored_state_error': 0.0, 'initially_successful': False} | expert_success_step=729
+demo_1 | Post-grasp | index=1215 | checks={'prefix_state_error': 8.493206138382448e-14, 'restored_state_error': 0.0, 'initially_successful': False} | expert_success_step=365
+demo_1 | Pre-success | index=1579 | checks={'prefix_state_error': 5.382699494460574e-13, 'restored_state_error': 0.0, 'initially_successful': False} | expert_success_step=1

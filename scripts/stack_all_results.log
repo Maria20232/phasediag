@@ -1,0 +1,1091 @@
+=== /home/maria/robosuite_work/demos_stack/bc_stack_500_seed42.pt ===
+[robosuite WARNING] No private macro file found! (macros.py:57)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:58)
+[robosuite WARNING] To setup, run: python /home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (macros.py:59)
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly, otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+Loading policy...
+Creating Stack environment...
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/controllers/config/robots/default_panda.json (composite_controller_factory.py:121)
+
+Loading demos from /home/maria/robosuite_work/demos_stack/1786611107_4237583/low_dim.hdf5 ...
+
+demo_1: detecting phases...
+  found: {'Approach': 44, 'Grasp-transport': 377, 'Near-placement': 418}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (485 steps)
+
+demo_2: detecting phases...
+  found: {'Approach': 45, 'Grasp-transport': 488, 'Near-placement': 519}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (293 steps)
+
+demo_3: detecting phases...
+  found: {'Approach': 38, 'Grasp-transport': 592, 'Near-placement': 684}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_4: detecting phases...
+  found: {'Approach': 49, 'Grasp-transport': 583, 'Near-placement': 615}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (2 steps)
+
+demo_5: detecting phases...
+  found: {'Approach': 61, 'Grasp-transport': 527, 'Near-placement': 650}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (158 steps)
+
+demo_6: detecting phases...
+  found: {'Approach': 23, 'Grasp-transport': 288, 'Near-placement': 335}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : SUCCESS (409 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_7: detecting phases...
+  found: {'Approach': 23, 'Grasp-transport': 362, 'Near-placement': 400}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_8: detecting phases...
+  found: {'Approach': 39, 'Grasp-transport': 623, 'Near-placement': 659}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_9: detecting phases...
+  found: {'Approach': 24, 'Grasp-transport': 350, 'Near-placement': 400}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (2 steps)
+
+demo_10: detecting phases...
+  found: {'Approach': 33, 'Grasp-transport': 558, 'Near-placement': 604}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (1 steps)
+
+demo_11: detecting phases...
+  found: {'Approach': 33, 'Grasp-transport': 398, 'Near-placement': 521}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_12: detecting phases...
+  found: {'Approach': 20, 'Grasp-transport': 255, 'Near-placement': 293}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_13: detecting phases...
+  found: {'Approach': 36, 'Grasp-transport': 585, 'Near-placement': 629}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (2 steps)
+
+demo_14: detecting phases...
+  found: {'Approach': 26, 'Grasp-transport': 371, 'Near-placement': 466}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (1 steps)
+
+demo_15: detecting phases...
+  found: {'Approach': 32, 'Grasp-transport': 474, 'Near-placement': 564}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (3 steps)
+
+============================================================
+STACK PHASE-CONDITIONED RESULTS (compact, single model)
+============================================================
+Approach         | 0/15 | 0.0% (skipped: 0)
+Grasp-transport  | 1/15 | 6.7% (skipped: 0)
+Near-placement   | 9/15 | 60.0% (skipped: 0)
+=== /home/maria/robosuite_work/demos_stack/bc_stack_500_seed43.pt ===
+[robosuite WARNING] No private macro file found! (macros.py:57)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:58)
+[robosuite WARNING] To setup, run: python /home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (macros.py:59)
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly, otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+Loading policy...
+Creating Stack environment...
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/controllers/config/robots/default_panda.json (composite_controller_factory.py:121)
+
+Loading demos from /home/maria/robosuite_work/demos_stack/1786611107_4237583/low_dim.hdf5 ...
+
+demo_1: detecting phases...
+  found: {'Approach': 44, 'Grasp-transport': 377, 'Near-placement': 418}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_2: detecting phases...
+  found: {'Approach': 45, 'Grasp-transport': 488, 'Near-placement': 519}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_3: detecting phases...
+  found: {'Approach': 38, 'Grasp-transport': 592, 'Near-placement': 684}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_4: detecting phases...
+  found: {'Approach': 49, 'Grasp-transport': 583, 'Near-placement': 615}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (350 steps)
+
+demo_5: detecting phases...
+  found: {'Approach': 61, 'Grasp-transport': 527, 'Near-placement': 650}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (1 steps)
+
+demo_6: detecting phases...
+  found: {'Approach': 23, 'Grasp-transport': 288, 'Near-placement': 335}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_7: detecting phases...
+  found: {'Approach': 23, 'Grasp-transport': 362, 'Near-placement': 400}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (1 steps)
+
+demo_8: detecting phases...
+  found: {'Approach': 39, 'Grasp-transport': 623, 'Near-placement': 659}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_9: detecting phases...
+  found: {'Approach': 24, 'Grasp-transport': 350, 'Near-placement': 400}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (2 steps)
+
+demo_10: detecting phases...
+  found: {'Approach': 33, 'Grasp-transport': 558, 'Near-placement': 604}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_11: detecting phases...
+  found: {'Approach': 33, 'Grasp-transport': 398, 'Near-placement': 521}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_12: detecting phases...
+  found: {'Approach': 20, 'Grasp-transport': 255, 'Near-placement': 293}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (2 steps)
+
+demo_13: detecting phases...
+  found: {'Approach': 36, 'Grasp-transport': 585, 'Near-placement': 629}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (2 steps)
+
+demo_14: detecting phases...
+  found: {'Approach': 26, 'Grasp-transport': 371, 'Near-placement': 466}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_15: detecting phases...
+  found: {'Approach': 32, 'Grasp-transport': 474, 'Near-placement': 564}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (3 steps)
+
+============================================================
+STACK PHASE-CONDITIONED RESULTS (compact, single model)
+============================================================
+Approach         | 0/15 | 0.0% (skipped: 0)
+Grasp-transport  | 0/15 | 0.0% (skipped: 0)
+Near-placement   | 7/15 | 46.7% (skipped: 0)
+=== /home/maria/robosuite_work/demos_stack/bc_stack_500_seed44.pt ===
+[robosuite WARNING] No private macro file found! (macros.py:57)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:58)
+[robosuite WARNING] To setup, run: python /home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (macros.py:59)
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly, otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+Loading policy...
+Creating Stack environment...
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/controllers/config/robots/default_panda.json (composite_controller_factory.py:121)
+
+Loading demos from /home/maria/robosuite_work/demos_stack/1786611107_4237583/low_dim.hdf5 ...
+
+demo_1: detecting phases...
+  found: {'Approach': 44, 'Grasp-transport': 377, 'Near-placement': 418}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (2 steps)
+
+demo_2: detecting phases...
+  found: {'Approach': 45, 'Grasp-transport': 488, 'Near-placement': 519}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_3: detecting phases...
+  found: {'Approach': 38, 'Grasp-transport': 592, 'Near-placement': 684}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_4: detecting phases...
+  found: {'Approach': 49, 'Grasp-transport': 583, 'Near-placement': 615}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (2 steps)
+
+demo_5: detecting phases...
+  found: {'Approach': 61, 'Grasp-transport': 527, 'Near-placement': 650}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (1 steps)
+
+demo_6: detecting phases...
+  found: {'Approach': 23, 'Grasp-transport': 288, 'Near-placement': 335}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_7: detecting phases...
+  found: {'Approach': 23, 'Grasp-transport': 362, 'Near-placement': 400}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (1 steps)
+
+demo_8: detecting phases...
+  found: {'Approach': 39, 'Grasp-transport': 623, 'Near-placement': 659}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_9: detecting phases...
+  found: {'Approach': 24, 'Grasp-transport': 350, 'Near-placement': 400}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_10: detecting phases...
+  found: {'Approach': 33, 'Grasp-transport': 558, 'Near-placement': 604}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (1 steps)
+
+demo_11: detecting phases...
+  found: {'Approach': 33, 'Grasp-transport': 398, 'Near-placement': 521}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (3 steps)
+
+demo_12: detecting phases...
+  found: {'Approach': 20, 'Grasp-transport': 255, 'Near-placement': 293}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_13: detecting phases...
+  found: {'Approach': 36, 'Grasp-transport': 585, 'Near-placement': 629}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_14: detecting phases...
+  found: {'Approach': 26, 'Grasp-transport': 371, 'Near-placement': 466}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_15: detecting phases...
+  found: {'Approach': 32, 'Grasp-transport': 474, 'Near-placement': 564}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+============================================================
+STACK PHASE-CONDITIONED RESULTS (compact, single model)
+============================================================
+Approach         | 0/15 | 0.0% (skipped: 0)
+Grasp-transport  | 0/15 | 0.0% (skipped: 0)
+Near-placement   | 6/15 | 40.0% (skipped: 0)
+=== /home/maria/robosuite_work/demos_stack/bc_stack_50_seed42.pt ===
+[robosuite WARNING] No private macro file found! (macros.py:57)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:58)
+[robosuite WARNING] To setup, run: python /home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (macros.py:59)
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly, otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+Loading policy...
+Creating Stack environment...
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/controllers/config/robots/default_panda.json (composite_controller_factory.py:121)
+
+Loading demos from /home/maria/robosuite_work/demos_stack/1786611107_4237583/low_dim.hdf5 ...
+
+demo_1: detecting phases...
+  found: {'Approach': 44, 'Grasp-transport': 377, 'Near-placement': 418}
+=== /home/maria/robosuite_work/demos_stack/bc_stack_50_seed42.pt ===
+[robosuite WARNING] No private macro file found! (macros.py:57)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:58)
+[robosuite WARNING] To setup, run: python /home/maria/miniconda3/lib/python3.14/site-packages/robosuite/scripts/setup_macros.py (macros.py:59)
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly, otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+Loading policy...
+Creating Stack environment...
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/lib/python3.14/site-packages/robosuite/controllers/config/robots/default_panda.json (composite_controller_factory.py:121)
+Traceback (most recent call last):
+  File "/home/maria/phasediag/scripts/phase_stack.py", line 151, in <module>
+    main()
+    ~~~~^^
+  File "/home/maria/phasediag/scripts/phase_stack.py", line 108, in main
+    env = create_env()
+  File "/home/maria/phasediag/scripts/phase_stack.py", line 31, in create_env
+    return suite.make(
+           ~~~~~~~~~~^
+        env_name="Stack", robots="Panda", controller_configs=controller_config,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        has_renderer=False, has_offscreen_renderer=False, use_camera_obs=False,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        reward_shaping=True, control_freq=20, ignore_done=True,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/environments/base.py", line 42, in make
+    return REGISTERED_ENVS[env_name](*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/environments/manipulation/stack.py", line 195, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        robots=robots,
+        ^^^^^^^^^^^^^^
+    ...<24 lines>...
+        seed=seed,
+        ^^^^^^^^^^
+    )
+    ^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/environments/manipulation/manipulation_env.py", line 172, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        robots=robots,
+        ^^^^^^^^^^^^^^
+    ...<24 lines>...
+        seed=seed,
+        ^^^^^^^^^^
+    )
+    ^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/environments/robot_env.py", line 221, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        has_renderer=has_renderer,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<12 lines>...
+        seed=seed,
+        ^^^^^^^^^^
+    )
+    ^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/environments/base.py", line 161, in __init__
+    self._reset_internal()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/environments/manipulation/stack.py", line 413, in _reset_internal
+    super()._reset_internal()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/environments/robot_env.py", line 519, in _reset_internal
+    super()._reset_internal()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/environments/base.py", line 346, in _reset_internal
+    self._setup_references()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/environments/manipulation/stack.py", line 403, in _setup_references
+    super()._setup_references()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/environments/robot_env.py", line 327, in _setup_references
+    robot.setup_references()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/robots/fixed_base_robot.py", line 87, in setup_references
+    super().setup_references()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/robots/robot.py", line 308, in setup_references
+    self._ref_joint_pos_indexes = [self.sim.model.get_joint_qpos_addr(x) for x in self.robot_joints]
+                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/utils/binding_utils.py", line 525, in get_joint_qpos_addr
+    assert joint_type in (mujoco.mjtJoint.mjJNT_HINGE, mujoco.mjtJoint.mjJNT_SLIDE)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+=== /home/maria/robosuite_work/demos_stack/bc_stack_50_seed43.pt ===
+[robosuite WARNING] No private macro file found! (macros.py:57)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:58)
+[robosuite WARNING] To setup, run: python /home/maria/miniconda3/lib/python3.14/site-packages/robosuite/scripts/setup_macros.py (macros.py:59)
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly, otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+Loading policy...
+Creating Stack environment...
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/lib/python3.14/site-packages/robosuite/controllers/config/robots/default_panda.json (composite_controller_factory.py:121)
+Traceback (most recent call last):
+  File "/home/maria/phasediag/scripts/phase_stack.py", line 151, in <module>
+    main()
+    ~~~~^^
+  File "/home/maria/phasediag/scripts/phase_stack.py", line 108, in main
+    env = create_env()
+  File "/home/maria/phasediag/scripts/phase_stack.py", line 31, in create_env
+    return suite.make(
+           ~~~~~~~~~~^
+        env_name="Stack", robots="Panda", controller_configs=controller_config,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        has_renderer=False, has_offscreen_renderer=False, use_camera_obs=False,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        reward_shaping=True, control_freq=20, ignore_done=True,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/environments/base.py", line 42, in make
+    return REGISTERED_ENVS[env_name](*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/environments/manipulation/stack.py", line 195, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        robots=robots,
+        ^^^^^^^^^^^^^^
+    ...<24 lines>...
+        seed=seed,
+        ^^^^^^^^^^
+    )
+    ^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/environments/manipulation/manipulation_env.py", line 172, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        robots=robots,
+        ^^^^^^^^^^^^^^
+    ...<24 lines>...
+        seed=seed,
+        ^^^^^^^^^^
+    )
+    ^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/environments/robot_env.py", line 221, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        has_renderer=has_renderer,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<12 lines>...
+        seed=seed,
+        ^^^^^^^^^^
+    )
+    ^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/environments/base.py", line 161, in __init__
+    self._reset_internal()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/environments/manipulation/stack.py", line 413, in _reset_internal
+    super()._reset_internal()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/environments/robot_env.py", line 519, in _reset_internal
+    super()._reset_internal()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/environments/base.py", line 346, in _reset_internal
+    self._setup_references()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/environments/manipulation/stack.py", line 403, in _setup_references
+    super()._setup_references()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/environments/robot_env.py", line 327, in _setup_references
+    robot.setup_references()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/robots/fixed_base_robot.py", line 87, in setup_references
+    super().setup_references()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/robots/robot.py", line 308, in setup_references
+    self._ref_joint_pos_indexes = [self.sim.model.get_joint_qpos_addr(x) for x in self.robot_joints]
+                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/utils/binding_utils.py", line 525, in get_joint_qpos_addr
+    assert joint_type in (mujoco.mjtJoint.mjJNT_HINGE, mujoco.mjtJoint.mjJNT_SLIDE)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+=== /home/maria/robosuite_work/demos_stack/bc_stack_50_seed44.pt ===
+[robosuite WARNING] No private macro file found! (macros.py:57)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:58)
+[robosuite WARNING] To setup, run: python /home/maria/miniconda3/lib/python3.14/site-packages/robosuite/scripts/setup_macros.py (macros.py:59)
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly, otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+Loading policy...
+Creating Stack environment...
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/lib/python3.14/site-packages/robosuite/controllers/config/robots/default_panda.json (composite_controller_factory.py:121)
+Traceback (most recent call last):
+  File "/home/maria/phasediag/scripts/phase_stack.py", line 151, in <module>
+    main()
+    ~~~~^^
+  File "/home/maria/phasediag/scripts/phase_stack.py", line 108, in main
+    env = create_env()
+  File "/home/maria/phasediag/scripts/phase_stack.py", line 31, in create_env
+    return suite.make(
+           ~~~~~~~~~~^
+        env_name="Stack", robots="Panda", controller_configs=controller_config,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        has_renderer=False, has_offscreen_renderer=False, use_camera_obs=False,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        reward_shaping=True, control_freq=20, ignore_done=True,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/environments/base.py", line 42, in make
+    return REGISTERED_ENVS[env_name](*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/environments/manipulation/stack.py", line 195, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        robots=robots,
+        ^^^^^^^^^^^^^^
+    ...<24 lines>...
+        seed=seed,
+        ^^^^^^^^^^
+    )
+    ^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/environments/manipulation/manipulation_env.py", line 172, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        robots=robots,
+        ^^^^^^^^^^^^^^
+    ...<24 lines>...
+        seed=seed,
+        ^^^^^^^^^^
+    )
+    ^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/environments/robot_env.py", line 221, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        has_renderer=has_renderer,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<12 lines>...
+        seed=seed,
+        ^^^^^^^^^^
+    )
+    ^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/environments/base.py", line 161, in __init__
+    self._reset_internal()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/environments/manipulation/stack.py", line 413, in _reset_internal
+    super()._reset_internal()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/environments/robot_env.py", line 519, in _reset_internal
+    super()._reset_internal()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/environments/base.py", line 346, in _reset_internal
+    self._setup_references()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/environments/manipulation/stack.py", line 403, in _setup_references
+    super()._setup_references()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/environments/robot_env.py", line 327, in _setup_references
+    robot.setup_references()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/robots/fixed_base_robot.py", line 87, in setup_references
+    super().setup_references()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/robots/robot.py", line 308, in setup_references
+    self._ref_joint_pos_indexes = [self.sim.model.get_joint_qpos_addr(x) for x in self.robot_joints]
+                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/home/maria/miniconda3/lib/python3.14/site-packages/robosuite/utils/binding_utils.py", line 525, in get_joint_qpos_addr
+    assert joint_type in (mujoco.mjtJoint.mjJNT_HINGE, mujoco.mjtJoint.mjJNT_SLIDE)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+ALL STACK RUNS COMPLETE
+=== /home/maria/robosuite_work/demos_stack/bc_stack_50_seed42.pt (RETRY, correct env) ===
+[robosuite WARNING] No private macro file found! (macros.py:57)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:58)
+[robosuite WARNING] To setup, run: python /home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (macros.py:59)
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly, otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+Loading policy...
+Creating Stack environment...
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/controllers/config/robots/default_panda.json (composite_controller_factory.py:121)
+
+Loading demos from /home/maria/robosuite_work/demos_stack/1786611107_4237583/low_dim.hdf5 ...
+
+demo_1: detecting phases...
+  found: {'Approach': 44, 'Grasp-transport': 377, 'Near-placement': 418}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (2 steps)
+
+demo_2: detecting phases...
+  found: {'Approach': 45, 'Grasp-transport': 488, 'Near-placement': 519}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_3: detecting phases...
+  found: {'Approach': 38, 'Grasp-transport': 592, 'Near-placement': 684}
+  Approach        : FAIL (500 steps)
+=== /home/maria/robosuite_work/demos_stack/bc_stack_50_seed42.pt (RETRY, correct env) ===
+  Grasp-transport : FAIL (500 steps)
+[robosuite WARNING] No private macro file found! (macros.py:57)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:58)
+[robosuite WARNING] To setup, run: python /home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (macros.py:59)
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly, otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+Loading policy...
+Creating Stack environment...
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/controllers/config/robots/default_panda.json (composite_controller_factory.py:121)
+  Near-placement  : FAIL (500 steps)
+
+demo_4: detecting phases...
+  found: {'Approach': 49, 'Grasp-transport': 583, 'Near-placement': 615}
+
+Loading demos from /home/maria/robosuite_work/demos_stack/1786611107_4237583/low_dim.hdf5 ...
+
+demo_1: detecting phases...
+  found: {'Approach': 44, 'Grasp-transport': 377, 'Near-placement': 418}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (2 steps)
+
+demo_5: detecting phases...
+  Approach        : FAIL (500 steps)
+  found: {'Approach': 61, 'Grasp-transport': 527, 'Near-placement': 650}
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (2 steps)
+
+demo_2: detecting phases...
+  found: {'Approach': 45, 'Grasp-transport': 488, 'Near-placement': 519}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (1 steps)
+
+demo_6: detecting phases...
+  Approach        : FAIL (500 steps)
+  found: {'Approach': 23, 'Grasp-transport': 288, 'Near-placement': 335}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_3: detecting phases...
+  found: {'Approach': 38, 'Grasp-transport': 592, 'Near-placement': 684}
+  Near-placement  : FAIL (500 steps)
+
+demo_7: detecting phases...
+  found: {'Approach': 23, 'Grasp-transport': 362, 'Near-placement': 400}
+  Approach        : FAIL (500 steps)
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (1 steps)
+
+demo_8: detecting phases...
+  found: {'Approach': 39, 'Grasp-transport': 623, 'Near-placement': 659}
+  Near-placement  : FAIL (500 steps)
+
+demo_4: detecting phases...
+  found: {'Approach': 49, 'Grasp-transport': 583, 'Near-placement': 615}
+  Approach        : FAIL (500 steps)
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (2 steps)
+
+demo_5: detecting phases...
+  found: {'Approach': 61, 'Grasp-transport': 527, 'Near-placement': 650}
+  Near-placement  : FAIL (500 steps)
+
+demo_9: detecting phases...
+  found: {'Approach': 24, 'Grasp-transport': 350, 'Near-placement': 400}
+  Approach        : FAIL (500 steps)
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (1 steps)
+
+demo_6: detecting phases...
+  found: {'Approach': 23, 'Grasp-transport': 288, 'Near-placement': 335}
+  Grasp-transport : FAIL (500 steps)
+  Approach        : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_10: detecting phases...
+  found: {'Approach': 33, 'Grasp-transport': 558, 'Near-placement': 604}
+  Grasp-transport : FAIL (500 steps)
+  Approach        : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_7: detecting phases...
+  found: {'Approach': 23, 'Grasp-transport': 362, 'Near-placement': 400}
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (1 steps)
+
+demo_11: detecting phases...
+  found: {'Approach': 33, 'Grasp-transport': 398, 'Near-placement': 521}
+  Approach        : FAIL (500 steps)
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (1 steps)
+
+demo_8: detecting phases...
+  found: {'Approach': 39, 'Grasp-transport': 623, 'Near-placement': 659}
+  Grasp-transport : FAIL (500 steps)
+  Approach        : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_12: detecting phases...
+  found: {'Approach': 20, 'Grasp-transport': 255, 'Near-placement': 293}
+  Grasp-transport : FAIL (500 steps)
+  Approach        : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_9: detecting phases...
+  found: {'Approach': 24, 'Grasp-transport': 350, 'Near-placement': 400}
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (2 steps)
+
+demo_13: detecting phases...
+  found: {'Approach': 36, 'Grasp-transport': 585, 'Near-placement': 629}
+  Approach        : FAIL (500 steps)
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (2 steps)
+
+demo_14: detecting phases...
+  found: {'Approach': 26, 'Grasp-transport': 371, 'Near-placement': 466}
+  Near-placement  : FAIL (500 steps)
+
+demo_10: detecting phases...
+  found: {'Approach': 33, 'Grasp-transport': 558, 'Near-placement': 604}
+  Approach        : FAIL (500 steps)
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (1 steps)
+
+demo_15: detecting phases...
+  found: {'Approach': 32, 'Grasp-transport': 474, 'Near-placement': 564}
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (1 steps)
+
+demo_11: detecting phases...
+  found: {'Approach': 33, 'Grasp-transport': 398, 'Near-placement': 521}
+  Approach        : FAIL (500 steps)
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_12: detecting phases...
+  found: {'Approach': 20, 'Grasp-transport': 255, 'Near-placement': 293}
+
+============================================================
+STACK PHASE-CONDITIONED RESULTS (compact, single model)
+============================================================
+Approach         | 0/15 | 0.0% (skipped: 0)
+Grasp-transport  | 0/15 | 0.0% (skipped: 0)
+Near-placement   | 8/15 | 53.3% (skipped: 0)
+=== /home/maria/robosuite_work/demos_stack/bc_stack_50_seed43.pt (RETRY, correct env) ===
+  Approach        : FAIL (500 steps)
+[robosuite WARNING] No private macro file found! (macros.py:57)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:58)
+[robosuite WARNING] To setup, run: python /home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (macros.py:59)
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly, otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+Loading policy...
+Creating Stack environment...
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/controllers/config/robots/default_panda.json (composite_controller_factory.py:121)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (2 steps)
+
+demo_13: detecting phases...
+  found: {'Approach': 36, 'Grasp-transport': 585, 'Near-placement': 629}
+
+Loading demos from /home/maria/robosuite_work/demos_stack/1786611107_4237583/low_dim.hdf5 ...
+
+demo_1: detecting phases...
+  found: {'Approach': 44, 'Grasp-transport': 377, 'Near-placement': 418}
+  Approach        : FAIL (500 steps)
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (2 steps)
+
+demo_14: detecting phases...
+  found: {'Approach': 26, 'Grasp-transport': 371, 'Near-placement': 466}
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (2 steps)
+
+demo_2: detecting phases...
+  found: {'Approach': 45, 'Grasp-transport': 488, 'Near-placement': 519}
+  Approach        : FAIL (500 steps)
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (1 steps)
+
+demo_15: detecting phases...
+  found: {'Approach': 32, 'Grasp-transport': 474, 'Near-placement': 564}
+  Grasp-transport : FAIL (500 steps)
+  Approach        : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_3: detecting phases...
+  found: {'Approach': 38, 'Grasp-transport': 592, 'Near-placement': 684}
+  Grasp-transport : FAIL (500 steps)
+  Approach        : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+============================================================
+STACK PHASE-CONDITIONED RESULTS (compact, single model)
+============================================================
+Approach         | 0/15 | 0.0% (skipped: 0)
+Grasp-transport  | 0/15 | 0.0% (skipped: 0)
+Near-placement   | 8/15 | 53.3% (skipped: 0)
+=== /home/maria/robosuite_work/demos_stack/bc_stack_50_seed43.pt (RETRY, correct env) ===
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (1 steps)
+
+demo_4: detecting phases...
+  found: {'Approach': 49, 'Grasp-transport': 583, 'Near-placement': 615}
+[robosuite WARNING] No private macro file found! (macros.py:57)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:58)
+[robosuite WARNING] To setup, run: python /home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (macros.py:59)
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly, otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+Loading policy...
+Creating Stack environment...
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/controllers/config/robots/default_panda.json (composite_controller_factory.py:121)
+  Approach        : FAIL (500 steps)
+
+Loading demos from /home/maria/robosuite_work/demos_stack/1786611107_4237583/low_dim.hdf5 ...
+
+demo_1: detecting phases...
+  found: {'Approach': 44, 'Grasp-transport': 377, 'Near-placement': 418}
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (3 steps)
+
+demo_5: detecting phases...
+  found: {'Approach': 61, 'Grasp-transport': 527, 'Near-placement': 650}
+  Approach        : FAIL (500 steps)
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (2 steps)
+
+demo_2: detecting phases...
+  found: {'Approach': 45, 'Grasp-transport': 488, 'Near-placement': 519}
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (1 steps)
+
+demo_6: detecting phases...
+  found: {'Approach': 23, 'Grasp-transport': 288, 'Near-placement': 335}
+  Approach        : FAIL (500 steps)
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_3: detecting phases...
+  found: {'Approach': 38, 'Grasp-transport': 592, 'Near-placement': 684}
+  Near-placement  : FAIL (500 steps)
+
+demo_7: detecting phases...
+  found: {'Approach': 23, 'Grasp-transport': 362, 'Near-placement': 400}
+  Approach        : FAIL (500 steps)
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (1 steps)
+
+demo_4: detecting phases...
+  found: {'Approach': 49, 'Grasp-transport': 583, 'Near-placement': 615}
+Traceback (most recent call last):
+  File "/home/maria/phasediag/scripts/phase_stack.py", line 151, in <module>
+    main()
+  File "/home/maria/phasediag/scripts/phase_stack.py", line 132, in main
+    success, steps = rollout_from_state(env, policy, states[idx], args.max_steps)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/maria/phasediag/scripts/phase_stack.py", line 92, in rollout_from_state
+    obs, reward, done, info = env.step(action)
+                              ^^^^^^^^^^^^^^^^
+  File "/home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/environments/base.py", line 459, in step
+    self._pre_action(action, policy_step)
+  File "/home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/environments/robot_env.py", line 589, in _pre_action
+    robot.control(robot_action, policy_step=policy_step)
+  File "/home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/robots/fixed_base_robot.py", line 148, in control
+    applied_action_dict = self.composite_controller.run_controller(self._enabled_parts)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/controllers/composite/composite_controller.py", line 114, in run_controller
+    self._applied_action_dict[part_name] = controller.run_controller()
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/controllers/parts/arm/osc.py", line 416, in run_controller
+    self.update()
+  File "/home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/controllers/parts/controller.py", line 226, in update
+    mass_matrix = np.ndarray(shape=(self.sim.model.nv, self.sim.model.nv), dtype=np.float64, order="C")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+ALL STACK RUNS COMPLETE (RETRY)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (1 steps)
+
+demo_8: detecting phases...
+  found: {'Approach': 39, 'Grasp-transport': 623, 'Near-placement': 659}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_9: detecting phases...
+  found: {'Approach': 24, 'Grasp-transport': 350, 'Near-placement': 400}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (2 steps)
+
+demo_10: detecting phases...
+  found: {'Approach': 33, 'Grasp-transport': 558, 'Near-placement': 604}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (1 steps)
+
+demo_11: detecting phases...
+  found: {'Approach': 33, 'Grasp-transport': 398, 'Near-placement': 521}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (3 steps)
+
+demo_12: detecting phases...
+  found: {'Approach': 20, 'Grasp-transport': 255, 'Near-placement': 293}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (2 steps)
+
+demo_13: detecting phases...
+  found: {'Approach': 36, 'Grasp-transport': 585, 'Near-placement': 629}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (2 steps)
+
+demo_14: detecting phases...
+  found: {'Approach': 26, 'Grasp-transport': 371, 'Near-placement': 466}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (1 steps)
+
+demo_15: detecting phases...
+  found: {'Approach': 32, 'Grasp-transport': 474, 'Near-placement': 564}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (3 steps)
+
+============================================================
+STACK PHASE-CONDITIONED RESULTS (compact, single model)
+============================================================
+Approach         | 0/15 | 0.0% (skipped: 0)
+Grasp-transport  | 0/15 | 0.0% (skipped: 0)
+Near-placement   | 12/15 | 80.0% (skipped: 0)
+=== /home/maria/robosuite_work/demos_stack/bc_stack_50_seed44.pt (RETRY, correct env) ===
+[robosuite WARNING] No private macro file found! (macros.py:57)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:58)
+[robosuite WARNING] To setup, run: python /home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (macros.py:59)
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly, otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+Loading policy...
+Creating Stack environment...
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/controllers/config/robots/default_panda.json (composite_controller_factory.py:121)
+
+Loading demos from /home/maria/robosuite_work/demos_stack/1786611107_4237583/low_dim.hdf5 ...
+
+demo_1: detecting phases...
+  found: {'Approach': 44, 'Grasp-transport': 377, 'Near-placement': 418}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (2 steps)
+
+demo_2: detecting phases...
+  found: {'Approach': 45, 'Grasp-transport': 488, 'Near-placement': 519}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (2 steps)
+
+demo_3: detecting phases...
+  found: {'Approach': 38, 'Grasp-transport': 592, 'Near-placement': 684}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (1 steps)
+
+demo_4: detecting phases...
+  found: {'Approach': 49, 'Grasp-transport': 583, 'Near-placement': 615}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (2 steps)
+
+demo_5: detecting phases...
+  found: {'Approach': 61, 'Grasp-transport': 527, 'Near-placement': 650}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (1 steps)
+
+demo_6: detecting phases...
+  found: {'Approach': 23, 'Grasp-transport': 288, 'Near-placement': 335}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_7: detecting phases...
+  found: {'Approach': 23, 'Grasp-transport': 362, 'Near-placement': 400}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (1 steps)
+
+demo_8: detecting phases...
+  found: {'Approach': 39, 'Grasp-transport': 623, 'Near-placement': 659}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+demo_9: detecting phases...
+  found: {'Approach': 24, 'Grasp-transport': 350, 'Near-placement': 400}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (2 steps)
+
+demo_10: detecting phases...
+  found: {'Approach': 33, 'Grasp-transport': 558, 'Near-placement': 604}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (1 steps)
+
+demo_11: detecting phases...
+  found: {'Approach': 33, 'Grasp-transport': 398, 'Near-placement': 521}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (3 steps)
+
+demo_12: detecting phases...
+  found: {'Approach': 20, 'Grasp-transport': 255, 'Near-placement': 293}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (2 steps)
+
+demo_13: detecting phases...
+  found: {'Approach': 36, 'Grasp-transport': 585, 'Near-placement': 629}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (3 steps)
+
+demo_14: detecting phases...
+  found: {'Approach': 26, 'Grasp-transport': 371, 'Near-placement': 466}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (1 steps)
+
+demo_15: detecting phases...
+  found: {'Approach': 32, 'Grasp-transport': 474, 'Near-placement': 564}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : SUCCESS (3 steps)
+
+============================================================
+STACK PHASE-CONDITIONED RESULTS (compact, single model)
+============================================================
+Approach         | 0/15 | 0.0% (skipped: 0)
+Grasp-transport  | 0/15 | 0.0% (skipped: 0)
+Near-placement   | 13/15 | 86.7% (skipped: 0)
+ALL STACK RUNS COMPLETE (RETRY)

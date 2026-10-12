@@ -1,0 +1,23 @@
+[robosuite WARNING] No private macro file found! (macros.py:57)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:58)
+[robosuite WARNING] To setup, run: python /home/maria/miniconda3/envs/vla/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (macros.py:59)
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly, otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/envs/vla/lib/python3.11/site-packages/robosuite/controllers/config/robots/default_panda.json (composite_controller_factory.py:121)
+Loading policy...
+Creating Stack environment...
+
+Loading demos from data/demos_stack/low_dim.hdf5 ...
+
+demo_1: detecting phases...
+  found: {'Approach': 44, 'Grasp-transport': 377, 'Near-placement': 418}
+  Approach        : FAIL (500 steps)
+  Grasp-transport : FAIL (500 steps)
+  Near-placement  : FAIL (500 steps)
+
+============================================================
+STACK PHASE-CONDITIONED RESULTS (compact, single model)
+============================================================
+Approach         | 0/1 | 0.0% (skipped: 0)
+Grasp-transport  | 0/1 | 0.0% (skipped: 0)
+Near-placement   | 0/1 | 0.0% (skipped: 0)

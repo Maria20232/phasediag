@@ -1,0 +1,2711 @@
+[robosuite WARNING] No private macro file found! (macros.py:57)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:58)
+[robosuite WARNING] To setup, run: python /home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (macros.py:59)
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly, otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/controllers/config/robots/default_panda.json (composite_controller_factory.py:121)
+======================================================================
+DiagVLA SEMANTIC PHASE CONTINUATION ANALYSIS
+======================================================================
+
+Found BC-50 seeds:  [42, 43, 44, 45, 46, 47, 48]
+Found BC-500 seeds: [42, 43, 44, 45, 46, 47, 48]
+
+Creating Lift environment...
+
+Detecting semantic phases...
+  demo_1: Approach=400, Pre-grasp=842, Grasp=843, Post-grasp=1211, Pre-success=1579
+  demo_2: Approach=1908, Pre-grasp=4537, Grasp=4538, Post-grasp=4645, Pre-success=4751
+  demo_3: Approach=231, Pre-grasp=676, Grasp=677, Post-grasp=698, Pre-success=718
+  demo_4: Approach=817, Pre-grasp=1900, Grasp=1901, Post-grasp=1941, Pre-success=1980
+  demo_5: Approach=174, Pre-grasp=640, Grasp=641, Post-grasp=671, Pre-success=700
+  demo_6: Approach=213, Pre-grasp=473, Grasp=474, Post-grasp=649, Pre-success=824
+  demo_7: Approach=149, Pre-grasp=343, Grasp=344, Post-grasp=558, Pre-success=772
+  demo_8: Approach=188, Pre-grasp=451, Grasp=452, Post-grasp=521, Pre-success=590
+  demo_9: Approach=166, Pre-grasp=458, Grasp=459, Post-grasp=480, Pre-success=500
+  demo_10: Approach=79, Pre-grasp=183, Grasp=184, Post-grasp=201, Pre-success=218
+  demo_11: Approach=109, Pre-grasp=272, Grasp=273, Post-grasp=287, Pre-success=301
+  demo_12: Approach=202, Pre-grasp=450, Grasp=451, Post-grasp=474, Pre-success=496
+  demo_13: Approach=107, Pre-grasp=379, Grasp=380, Post-grasp=398, Pre-success=415
+  demo_14: Approach=123, Pre-grasp=324, Grasp=325, Post-grasp=343, Pre-success=360
+  demo_15: Approach=108, Pre-grasp=454, Grasp=455, Post-grasp=469, Pre-success=483
+  demo_16: Approach=69, Pre-grasp=666, Grasp=667, Post-grasp=687, Pre-success=706
+  demo_17: Approach=99, Pre-grasp=256, Grasp=257, Post-grasp=272, Pre-success=286
+  demo_18: Approach=88, Pre-grasp=211, Grasp=212, Post-grasp=226, Pre-success=240
+  demo_19: Approach=106, Pre-grasp=277, Grasp=278, Post-grasp=296, Pre-success=314
+  demo_20: Approach=103, Pre-grasp=287, Grasp=288, Post-grasp=307, Pre-success=326
+  demo_21: Approach=83, Pre-grasp=343, Grasp=344, Post-grasp=362, Pre-success=379
+  demo_22: Approach=91, Pre-grasp=372, Grasp=373, Post-grasp=390, Pre-success=407
+  demo_23: Approach=67, Pre-grasp=267, Grasp=268, Post-grasp=285, Pre-success=301
+  demo_24: Approach=63, Pre-grasp=248, Grasp=249, Post-grasp=263, Pre-success=276
+  demo_25: Approach=99, Pre-grasp=242, Grasp=243, Post-grasp=262, Pre-success=281
+
+======================================================================
+EVALUATING BC-50 (seed 42)
+======================================================================
+
+demo_1
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (2 steps)
+
+demo_2
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (18 steps)
+  Grasp       : SUCCESS (18 steps)
+  Post-grasp  : SUCCESS (11 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_3
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (11 steps)
+  Grasp       : SUCCESS (11 steps)
+  Post-grasp  : SUCCESS (12 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_4
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (18 steps)
+  Grasp       : SUCCESS (17 steps)
+  Post-grasp  : SUCCESS (16 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_5
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (14 steps)
+  Grasp       : SUCCESS (13 steps)
+  Post-grasp  : SUCCESS (14 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_6
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (1 steps)
+
+demo_7
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (15 steps)
+  Grasp       : SUCCESS (11 steps)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (1 steps)
+
+demo_8
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : SUCCESS (13 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_9
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (17 steps)
+  Grasp       : SUCCESS (17 steps)
+  Post-grasp  : SUCCESS (15 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_10
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (12 steps)
+  Grasp       : SUCCESS (11 steps)
+  Post-grasp  : SUCCESS (10 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_11
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (7 steps)
+  Grasp       : SUCCESS (7 steps)
+  Post-grasp  : SUCCESS (7 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_12
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (13 steps)
+  Grasp       : SUCCESS (12 steps)
+  Post-grasp  : SUCCESS (12 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_13
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (12 steps)
+  Grasp       : SUCCESS (13 steps)
+  Post-grasp  : SUCCESS (9 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_14
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (12 steps)
+  Grasp       : SUCCESS (12 steps)
+  Post-grasp  : SUCCESS (13 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_15
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (10 steps)
+  Grasp       : SUCCESS (10 steps)
+  Post-grasp  : SUCCESS (9 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_16
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (13 steps)
+  Grasp       : SUCCESS (13 steps)
+  Post-grasp  : SUCCESS (13 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_17
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (12 steps)
+  Grasp       : SUCCESS (12 steps)
+  Post-grasp  : SUCCESS (12 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_18
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (13 steps)
+  Grasp       : SUCCESS (13 steps)
+  Post-grasp  : SUCCESS (16 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_19
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (9 steps)
+  Grasp       : SUCCESS (9 steps)
+  Post-grasp  : SUCCESS (9 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_20
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (12 steps)
+  Grasp       : SUCCESS (12 steps)
+  Post-grasp  : SUCCESS (12 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_21
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (9 steps)
+  Grasp       : SUCCESS (9 steps)
+  Post-grasp  : SUCCESS (9 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_22
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (15 steps)
+  Grasp       : SUCCESS (14 steps)
+  Post-grasp  : SUCCESS (13 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_23
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (10 steps)
+  Grasp       : SUCCESS (13 steps)
+  Post-grasp  : SUCCESS (8 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_24
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (12 steps)
+  Grasp       : SUCCESS (12 steps)
+  Post-grasp  : SUCCESS (13 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_25
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (11 steps)
+  Grasp       : SUCCESS (10 steps)
+  Post-grasp  : SUCCESS (9 steps)
+  Pre-success : SUCCESS (1 steps)
+
+======================================================================
+BC-50 (seed 42) PHASE RESULTS
+======================================================================
+Approach     |  0/25 |    0.0% | mean success steps=nan
+Pre-grasp    | 22/25 |   88.0% | mean success steps=12.5
+Grasp        | 22/25 |   88.0% | mean success steps=12.2
+Post-grasp   | 22/25 |   88.0% | mean success steps=11.6
+Pre-success  | 25/25 |  100.0% | mean success steps=1.4
+
+======================================================================
+EVALUATING BC-50 (seed 43)
+======================================================================
+
+demo_1
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (2 steps)
+
+demo_2
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (26 steps)
+  Grasp       : SUCCESS (25 steps)
+  Post-grasp  : SUCCESS (15 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_3
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : SUCCESS (16 steps)
+  Post-grasp  : SUCCESS (16 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_4
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (28 steps)
+  Grasp       : SUCCESS (28 steps)
+  Post-grasp  : SUCCESS (24 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_5
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (19 steps)
+  Grasp       : SUCCESS (19 steps)
+  Post-grasp  : SUCCESS (20 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_6
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : SUCCESS (24 steps)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (2 steps)
+
+demo_7
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (14 steps)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (2 steps)
+
+demo_8
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (68 steps)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : SUCCESS (22 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_9
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (19 steps)
+  Grasp       : SUCCESS (19 steps)
+  Post-grasp  : SUCCESS (19 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_10
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (19 steps)
+  Grasp       : SUCCESS (19 steps)
+  Post-grasp  : SUCCESS (18 steps)
+  Pre-success : FAIL (horizon)
+
+demo_11
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (18 steps)
+  Grasp       : SUCCESS (17 steps)
+  Post-grasp  : SUCCESS (17 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_12
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (18 steps)
+  Grasp       : SUCCESS (16 steps)
+  Post-grasp  : SUCCESS (18 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_13
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (23 steps)
+  Grasp       : SUCCESS (24 steps)
+  Post-grasp  : SUCCESS (23 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_14
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (20 steps)
+  Grasp       : SUCCESS (19 steps)
+  Post-grasp  : SUCCESS (19 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_15
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (19 steps)
+  Grasp       : SUCCESS (19 steps)
+  Post-grasp  : SUCCESS (19 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_16
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (18 steps)
+  Grasp       : SUCCESS (17 steps)
+  Post-grasp  : SUCCESS (15 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_17
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (16 steps)
+  Grasp       : SUCCESS (15 steps)
+  Post-grasp  : SUCCESS (15 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_18
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (17 steps)
+  Grasp       : SUCCESS (16 steps)
+  Post-grasp  : SUCCESS (17 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_19
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (17 steps)
+  Grasp       : SUCCESS (16 steps)
+  Post-grasp  : SUCCESS (16 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_20
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (22 steps)
+  Grasp       : SUCCESS (23 steps)
+  Post-grasp  : SUCCESS (21 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_21
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (15 steps)
+  Grasp       : SUCCESS (15 steps)
+  Post-grasp  : SUCCESS (15 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_22
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (26 steps)
+  Grasp       : SUCCESS (26 steps)
+  Post-grasp  : SUCCESS (25 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_23
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (18 steps)
+  Grasp       : SUCCESS (18 steps)
+  Post-grasp  : SUCCESS (15 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_24
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (18 steps)
+  Grasp       : SUCCESS (17 steps)
+  Post-grasp  : SUCCESS (18 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_25
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (14 steps)
+  Grasp       : SUCCESS (15 steps)
+  Post-grasp  : SUCCESS (13 steps)
+  Pre-success : SUCCESS (2 steps)
+
+======================================================================
+BC-50 (seed 43) PHASE RESULTS
+======================================================================
+Approach     |  0/25 |    0.0% | mean success steps=nan
+Pre-grasp    | 22/25 |   88.0% | mean success steps=21.5
+Grasp        | 22/25 |   88.0% | mean success steps=19.2
+Post-grasp   | 22/25 |   88.0% | mean success steps=18.2
+Pre-success  | 24/25 |   96.0% | mean success steps=2.1
+
+======================================================================
+EVALUATING BC-50 (seed 44)
+======================================================================
+
+demo_1
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (2 steps)
+
+demo_2
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (97 steps)
+  Grasp       : SUCCESS (68 steps)
+  Post-grasp  : SUCCESS (48 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_3
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (32 steps)
+  Grasp       : SUCCESS (30 steps)
+  Post-grasp  : SUCCESS (30 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_4
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (90 steps)
+  Grasp       : SUCCESS (98 steps)
+  Post-grasp  : SUCCESS (58 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_5
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (43 steps)
+  Grasp       : SUCCESS (37 steps)
+  Post-grasp  : SUCCESS (39 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_6
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : SUCCESS (42 steps)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (2 steps)
+
+demo_7
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (2 steps)
+
+demo_8
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : SUCCESS (39 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_9
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (307 steps)
+  Grasp       : SUCCESS (293 steps)
+  Post-grasp  : SUCCESS (274 steps)
+  Pre-success : SUCCESS (30 steps)
+
+demo_10
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (20 steps)
+  Grasp       : SUCCESS (42 steps)
+  Post-grasp  : SUCCESS (21 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_11
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (19 steps)
+  Grasp       : SUCCESS (21 steps)
+  Post-grasp  : SUCCESS (23 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_12
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (29 steps)
+  Grasp       : SUCCESS (31 steps)
+  Post-grasp  : SUCCESS (32 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_13
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (59 steps)
+  Grasp       : SUCCESS (41 steps)
+  Post-grasp  : SUCCESS (28 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_14
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (25 steps)
+  Grasp       : SUCCESS (23 steps)
+  Post-grasp  : SUCCESS (24 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_15
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (26 steps)
+  Grasp       : SUCCESS (27 steps)
+  Post-grasp  : SUCCESS (24 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_16
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (27 steps)
+  Grasp       : SUCCESS (27 steps)
+  Post-grasp  : SUCCESS (29 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_17
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (38 steps)
+  Grasp       : SUCCESS (38 steps)
+  Post-grasp  : SUCCESS (37 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_18
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (47 steps)
+  Grasp       : SUCCESS (54 steps)
+  Post-grasp  : SUCCESS (62 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_19
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (27 steps)
+  Grasp       : SUCCESS (27 steps)
+  Post-grasp  : SUCCESS (29 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_20
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (38 steps)
+  Grasp       : SUCCESS (42 steps)
+  Post-grasp  : SUCCESS (42 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_21
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (20 steps)
+  Grasp       : SUCCESS (19 steps)
+  Post-grasp  : SUCCESS (19 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_22
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (32 steps)
+  Grasp       : SUCCESS (33 steps)
+  Post-grasp  : SUCCESS (29 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_23
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (21 steps)
+  Grasp       : SUCCESS (44 steps)
+  Post-grasp  : SUCCESS (18 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_24
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (41 steps)
+  Grasp       : SUCCESS (41 steps)
+  Post-grasp  : SUCCESS (44 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_25
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (17 steps)
+  Grasp       : SUCCESS (18 steps)
+  Post-grasp  : SUCCESS (15 steps)
+  Pre-success : SUCCESS (1 steps)
+
+======================================================================
+BC-50 (seed 44) PHASE RESULTS
+======================================================================
+Approach     |  0/25 |    0.0% | mean success steps=nan
+Pre-grasp    | 21/25 |   84.0% | mean success steps=50.2
+Grasp        | 22/25 |   88.0% | mean success steps=49.8
+Post-grasp   | 22/25 |   88.0% | mean success steps=43.8
+Pre-success  | 25/25 |  100.0% | mean success steps=3.1
+
+======================================================================
+EVALUATING BC-50 (seed 45)
+======================================================================
+
+demo_1
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (3 steps)
+
+demo_2
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (81 steps)
+  Grasp       : SUCCESS (87 steps)
+  Post-grasp  : SUCCESS (174 steps)
+  Pre-success : SUCCESS (10 steps)
+
+demo_3
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (27 steps)
+  Grasp       : SUCCESS (27 steps)
+  Post-grasp  : SUCCESS (29 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_4
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (79 steps)
+  Grasp       : SUCCESS (77 steps)
+  Post-grasp  : SUCCESS (58 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_5
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (53 steps)
+  Grasp       : SUCCESS (50 steps)
+  Post-grasp  : SUCCESS (44 steps)
+  Pre-success : SUCCESS (5 steps)
+
+demo_6
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (2 steps)
+
+demo_7
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (131 steps)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (2 steps)
+
+demo_8
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : SUCCESS (63 steps)
+  Pre-success : SUCCESS (5 steps)
+
+demo_9
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (17 steps)
+  Grasp       : SUCCESS (19 steps)
+  Post-grasp  : SUCCESS (16 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_10
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (69 steps)
+  Grasp       : SUCCESS (57 steps)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : FAIL (horizon)
+
+demo_11
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (47 steps)
+  Grasp       : SUCCESS (52 steps)
+  Post-grasp  : SUCCESS (54 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_12
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (66 steps)
+  Grasp       : SUCCESS (88 steps)
+  Post-grasp  : SUCCESS (72 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_13
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (52 steps)
+  Grasp       : SUCCESS (53 steps)
+  Post-grasp  : SUCCESS (59 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_14
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (58 steps)
+  Grasp       : SUCCESS (63 steps)
+  Post-grasp  : SUCCESS (70 steps)
+  Pre-success : SUCCESS (4 steps)
+
+demo_15
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (41 steps)
+  Grasp       : SUCCESS (44 steps)
+  Post-grasp  : SUCCESS (35 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_16
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (56 steps)
+  Grasp       : SUCCESS (58 steps)
+  Post-grasp  : SUCCESS (51 steps)
+  Pre-success : SUCCESS (4 steps)
+
+demo_17
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (36 steps)
+  Grasp       : SUCCESS (37 steps)
+  Post-grasp  : SUCCESS (35 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_18
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (44 steps)
+  Grasp       : SUCCESS (44 steps)
+  Post-grasp  : SUCCESS (47 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_19
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (40 steps)
+  Grasp       : SUCCESS (37 steps)
+  Post-grasp  : SUCCESS (35 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_20
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (73 steps)
+  Grasp       : SUCCESS (65 steps)
+  Post-grasp  : SUCCESS (65 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_21
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (38 steps)
+  Grasp       : SUCCESS (36 steps)
+  Post-grasp  : SUCCESS (38 steps)
+  Pre-success : SUCCESS (5 steps)
+
+demo_22
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (85 steps)
+  Grasp       : SUCCESS (101 steps)
+  Post-grasp  : SUCCESS (115 steps)
+  Pre-success : SUCCESS (5 steps)
+
+demo_23
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (97 steps)
+  Grasp       : SUCCESS (76 steps)
+  Post-grasp  : SUCCESS (34 steps)
+  Pre-success : SUCCESS (5 steps)
+
+demo_24
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (43 steps)
+  Grasp       : SUCCESS (45 steps)
+  Post-grasp  : SUCCESS (44 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_25
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : SUCCESS (130 steps)
+  Post-grasp  : SUCCESS (71 steps)
+  Pre-success : SUCCESS (4 steps)
+
+======================================================================
+BC-50 (seed 45) PHASE RESULTS
+======================================================================
+Approach     |  0/25 |    0.0% | mean success steps=nan
+Pre-grasp    | 21/25 |   84.0% | mean success steps=58.7
+Grasp        | 21/25 |   84.0% | mean success steps=59.3
+Post-grasp   | 21/25 |   84.0% | mean success steps=57.6
+Pre-success  | 24/25 |   96.0% | mean success steps=3.4
+
+======================================================================
+EVALUATING BC-50 (seed 46)
+======================================================================
+
+demo_1
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (2 steps)
+
+demo_2
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (43 steps)
+  Grasp       : SUCCESS (39 steps)
+  Post-grasp  : SUCCESS (17 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_3
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (15 steps)
+  Grasp       : SUCCESS (15 steps)
+  Post-grasp  : SUCCESS (15 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_4
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (36 steps)
+  Grasp       : SUCCESS (36 steps)
+  Post-grasp  : SUCCESS (30 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_5
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (28 steps)
+  Grasp       : SUCCESS (27 steps)
+  Post-grasp  : SUCCESS (29 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_6
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (2 steps)
+
+demo_7
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (34 steps)
+  Grasp       : SUCCESS (35 steps)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (2 steps)
+
+demo_8
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : SUCCESS (32 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_9
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (23 steps)
+  Grasp       : SUCCESS (23 steps)
+  Post-grasp  : SUCCESS (24 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_10
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (34 steps)
+  Grasp       : SUCCESS (30 steps)
+  Post-grasp  : SUCCESS (31 steps)
+  Pre-success : SUCCESS (4 steps)
+
+demo_11
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (27 steps)
+  Grasp       : SUCCESS (27 steps)
+  Post-grasp  : SUCCESS (29 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_12
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (39 steps)
+  Grasp       : SUCCESS (43 steps)
+  Post-grasp  : SUCCESS (44 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_13
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (29 steps)
+  Grasp       : SUCCESS (28 steps)
+  Post-grasp  : SUCCESS (29 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_14
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (13 steps)
+  Grasp       : SUCCESS (13 steps)
+  Post-grasp  : SUCCESS (13 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_15
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (17 steps)
+  Grasp       : SUCCESS (18 steps)
+  Post-grasp  : SUCCESS (16 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_16
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (29 steps)
+  Grasp       : SUCCESS (29 steps)
+  Post-grasp  : SUCCESS (29 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_17
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (28 steps)
+  Grasp       : SUCCESS (28 steps)
+  Post-grasp  : SUCCESS (29 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_18
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (32 steps)
+  Grasp       : SUCCESS (33 steps)
+  Post-grasp  : SUCCESS (34 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_19
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (15 steps)
+  Grasp       : SUCCESS (14 steps)
+  Post-grasp  : SUCCESS (14 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_20
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (18 steps)
+  Grasp       : SUCCESS (20 steps)
+  Post-grasp  : SUCCESS (17 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_21
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (14 steps)
+  Grasp       : SUCCESS (14 steps)
+  Post-grasp  : SUCCESS (14 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_22
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (23 steps)
+  Grasp       : SUCCESS (22 steps)
+  Post-grasp  : SUCCESS (21 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_23
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (23 steps)
+  Grasp       : SUCCESS (23 steps)
+  Post-grasp  : SUCCESS (19 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_24
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (31 steps)
+  Grasp       : SUCCESS (31 steps)
+  Post-grasp  : SUCCESS (32 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_25
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (22 steps)
+  Grasp       : SUCCESS (24 steps)
+  Post-grasp  : SUCCESS (19 steps)
+  Pre-success : SUCCESS (2 steps)
+
+======================================================================
+BC-50 (seed 46) PHASE RESULTS
+======================================================================
+Approach     |  0/25 |    0.0% | mean success steps=nan
+Pre-grasp    | 22/25 |   88.0% | mean success steps=26.0
+Grasp        | 22/25 |   88.0% | mean success steps=26.0
+Post-grasp   | 22/25 |   88.0% | mean success steps=24.4
+Pre-success  | 25/25 |  100.0% | mean success steps=2.2
+
+======================================================================
+EVALUATING BC-50 (seed 47)
+======================================================================
+
+demo_1
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (2 steps)
+
+demo_2
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : FAIL (horizon)
+
+demo_3
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : SUCCESS (136 steps)
+  Post-grasp  : SUCCESS (125 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_4
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : SUCCESS (40 steps)
+  Post-grasp  : SUCCESS (36 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_5
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (14 steps)
+
+demo_6
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (2 steps)
+
+demo_7
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : SUCCESS (16 steps)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (2 steps)
+
+demo_8
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : SUCCESS (59 steps)
+  Pre-success : SUCCESS (4 steps)
+
+demo_9
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (51 steps)
+  Grasp       : SUCCESS (50 steps)
+  Post-grasp  : SUCCESS (39 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_10
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (26 steps)
+  Grasp       : SUCCESS (25 steps)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (3 steps)
+
+demo_11
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (40 steps)
+  Grasp       : SUCCESS (36 steps)
+  Post-grasp  : SUCCESS (61 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_12
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (57 steps)
+  Grasp       : SUCCESS (70 steps)
+  Post-grasp  : SUCCESS (68 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_13
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (68 steps)
+  Grasp       : SUCCESS (70 steps)
+  Post-grasp  : SUCCESS (49 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_14
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : FAIL (horizon)
+
+demo_15
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (74 steps)
+  Grasp       : SUCCESS (64 steps)
+  Post-grasp  : SUCCESS (64 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_16
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (29 steps)
+  Grasp       : SUCCESS (30 steps)
+  Post-grasp  : SUCCESS (29 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_17
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (2 steps)
+
+demo_18
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : FAIL (horizon)
+
+demo_19
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (138 steps)
+  Grasp       : SUCCESS (132 steps)
+  Post-grasp  : SUCCESS (140 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_20
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (52 steps)
+  Grasp       : SUCCESS (52 steps)
+  Post-grasp  : SUCCESS (52 steps)
+  Pre-success : FAIL (horizon)
+
+demo_21
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (92 steps)
+  Grasp       : SUCCESS (114 steps)
+  Post-grasp  : SUCCESS (146 steps)
+  Pre-success : SUCCESS (7 steps)
+
+demo_22
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (41 steps)
+  Grasp       : SUCCESS (53 steps)
+  Post-grasp  : SUCCESS (40 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_23
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (29 steps)
+  Grasp       : SUCCESS (35 steps)
+  Post-grasp  : SUCCESS (19 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_24
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : SUCCESS (46 steps)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (3 steps)
+
+demo_25
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (3 steps)
+
+======================================================================
+BC-50 (seed 47) PHASE RESULTS
+======================================================================
+Approach     |  0/25 |    0.0% | mean success steps=nan
+Pre-grasp    | 12/25 |   48.0% | mean success steps=58.1
+Grasp        | 16/25 |   64.0% | mean success steps=60.6
+Post-grasp   | 14/25 |   56.0% | mean success steps=66.2
+Pre-success  | 21/25 |   84.0% | mean success steps=3.3
+
+======================================================================
+EVALUATING BC-50 (seed 48)
+======================================================================
+
+demo_1
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (2 steps)
+
+demo_2
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (32 steps)
+  Grasp       : SUCCESS (31 steps)
+  Post-grasp  : SUCCESS (30 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_3
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (21 steps)
+  Grasp       : SUCCESS (20 steps)
+  Post-grasp  : SUCCESS (20 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_4
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (34 steps)
+  Grasp       : SUCCESS (34 steps)
+  Post-grasp  : SUCCESS (33 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_5
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (26 steps)
+  Grasp       : SUCCESS (27 steps)
+  Post-grasp  : SUCCESS (27 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_6
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (2 steps)
+
+demo_7
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (2 steps)
+
+demo_8
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : SUCCESS (29 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_9
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (31 steps)
+  Grasp       : SUCCESS (31 steps)
+  Post-grasp  : SUCCESS (31 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_10
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (24 steps)
+  Grasp       : SUCCESS (22 steps)
+  Post-grasp  : SUCCESS (23 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_11
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (25 steps)
+  Grasp       : SUCCESS (25 steps)
+  Post-grasp  : SUCCESS (26 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_12
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (27 steps)
+  Grasp       : SUCCESS (28 steps)
+  Post-grasp  : SUCCESS (27 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_13
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (24 steps)
+  Grasp       : SUCCESS (24 steps)
+  Post-grasp  : SUCCESS (25 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_14
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (29 steps)
+  Grasp       : SUCCESS (29 steps)
+  Post-grasp  : SUCCESS (29 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_15
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (23 steps)
+  Grasp       : SUCCESS (23 steps)
+  Post-grasp  : SUCCESS (23 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_16
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (31 steps)
+  Grasp       : SUCCESS (31 steps)
+  Post-grasp  : SUCCESS (31 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_17
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (28 steps)
+  Grasp       : SUCCESS (28 steps)
+  Post-grasp  : SUCCESS (28 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_18
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (30 steps)
+  Grasp       : SUCCESS (27 steps)
+  Post-grasp  : SUCCESS (32 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_19
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (27 steps)
+  Grasp       : SUCCESS (26 steps)
+  Post-grasp  : SUCCESS (26 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_20
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (30 steps)
+  Grasp       : SUCCESS (30 steps)
+  Post-grasp  : SUCCESS (30 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_21
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (21 steps)
+  Grasp       : SUCCESS (21 steps)
+  Post-grasp  : SUCCESS (21 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_22
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (29 steps)
+  Grasp       : SUCCESS (30 steps)
+  Post-grasp  : SUCCESS (30 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_23
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (29 steps)
+  Grasp       : SUCCESS (30 steps)
+  Post-grasp  : SUCCESS (29 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_24
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (26 steps)
+  Grasp       : SUCCESS (27 steps)
+  Post-grasp  : SUCCESS (27 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_25
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (24 steps)
+  Grasp       : SUCCESS (23 steps)
+  Post-grasp  : SUCCESS (20 steps)
+  Pre-success : SUCCESS (2 steps)
+
+======================================================================
+BC-50 (seed 48) PHASE RESULTS
+======================================================================
+Approach     |  0/25 |    0.0% | mean success steps=nan
+Pre-grasp    | 21/25 |   84.0% | mean success steps=27.2
+Grasp        | 21/25 |   84.0% | mean success steps=27.0
+Post-grasp   | 22/25 |   88.0% | mean success steps=27.1
+Pre-success  | 25/25 |  100.0% | mean success steps=2.4
+
+======================================================================
+EVALUATING BC-500 (seed 42)
+======================================================================
+
+demo_1
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (1 steps)
+
+demo_2
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (355 steps)
+  Grasp       : SUCCESS (198 steps)
+  Post-grasp  : SUCCESS (317 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_3
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (12 steps)
+  Grasp       : SUCCESS (13 steps)
+  Post-grasp  : SUCCESS (17 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_4
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (49 steps)
+  Grasp       : SUCCESS (53 steps)
+  Post-grasp  : SUCCESS (44 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_5
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (22 steps)
+  Grasp       : SUCCESS (27 steps)
+  Post-grasp  : SUCCESS (25 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_6
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (2 steps)
+
+demo_7
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (56 steps)
+  Grasp       : SUCCESS (51 steps)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (1 steps)
+
+demo_8
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : SUCCESS (34 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_9
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (29 steps)
+  Grasp       : SUCCESS (29 steps)
+  Post-grasp  : SUCCESS (14 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_10
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (12 steps)
+  Grasp       : SUCCESS (18 steps)
+  Post-grasp  : SUCCESS (16 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_11
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (13 steps)
+  Grasp       : SUCCESS (9 steps)
+  Post-grasp  : SUCCESS (11 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_12
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (23 steps)
+  Grasp       : SUCCESS (23 steps)
+  Post-grasp  : SUCCESS (21 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_13
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (24 steps)
+  Grasp       : SUCCESS (22 steps)
+  Post-grasp  : SUCCESS (17 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_14
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (25 steps)
+  Grasp       : SUCCESS (23 steps)
+  Post-grasp  : SUCCESS (26 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_15
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (25 steps)
+  Grasp       : SUCCESS (21 steps)
+  Post-grasp  : SUCCESS (17 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_16
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (26 steps)
+  Grasp       : SUCCESS (24 steps)
+  Post-grasp  : SUCCESS (17 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_17
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (20 steps)
+  Grasp       : SUCCESS (20 steps)
+  Post-grasp  : SUCCESS (21 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_18
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (19 steps)
+  Grasp       : SUCCESS (18 steps)
+  Post-grasp  : SUCCESS (16 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_19
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (20 steps)
+  Grasp       : SUCCESS (19 steps)
+  Post-grasp  : SUCCESS (20 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_20
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (29 steps)
+  Grasp       : SUCCESS (27 steps)
+  Post-grasp  : SUCCESS (28 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_21
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (13 steps)
+  Grasp       : SUCCESS (11 steps)
+  Post-grasp  : SUCCESS (13 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_22
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (24 steps)
+  Grasp       : SUCCESS (21 steps)
+  Post-grasp  : SUCCESS (15 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_23
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (32 steps)
+  Grasp       : SUCCESS (32 steps)
+  Post-grasp  : SUCCESS (16 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_24
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (11 steps)
+  Grasp       : SUCCESS (10 steps)
+  Post-grasp  : SUCCESS (9 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_25
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (16 steps)
+  Grasp       : SUCCESS (14 steps)
+  Post-grasp  : SUCCESS (14 steps)
+  Pre-success : SUCCESS (1 steps)
+
+======================================================================
+BC-500 (seed 42) PHASE RESULTS
+======================================================================
+Approach     |  0/25 |    0.0% | mean success steps=nan
+Pre-grasp    | 22/25 |   88.0% | mean success steps=38.9
+Grasp        | 22/25 |   88.0% | mean success steps=31.0
+Post-grasp   | 22/25 |   88.0% | mean success steps=33.1
+Pre-success  | 25/25 |  100.0% | mean success steps=1.5
+
+======================================================================
+EVALUATING BC-500 (seed 43)
+======================================================================
+
+demo_1
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (2 steps)
+
+demo_2
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (62 steps)
+  Grasp       : SUCCESS (36 steps)
+  Post-grasp  : SUCCESS (215 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_3
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (11 steps)
+  Grasp       : SUCCESS (13 steps)
+  Post-grasp  : SUCCESS (16 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_4
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (231 steps)
+  Grasp       : SUCCESS (238 steps)
+  Post-grasp  : SUCCESS (190 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_5
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (17 steps)
+  Grasp       : SUCCESS (27 steps)
+  Post-grasp  : SUCCESS (20 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_6
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (51 steps)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (1 steps)
+
+demo_7
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (1 steps)
+
+demo_8
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : SUCCESS (56 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_9
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (51 steps)
+  Grasp       : SUCCESS (47 steps)
+  Post-grasp  : SUCCESS (25 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_10
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : SUCCESS (42 steps)
+  Post-grasp  : SUCCESS (13 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_11
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (12 steps)
+  Grasp       : SUCCESS (13 steps)
+  Post-grasp  : SUCCESS (20 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_12
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (32 steps)
+  Grasp       : SUCCESS (35 steps)
+  Post-grasp  : SUCCESS (15 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_13
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (28 steps)
+  Grasp       : SUCCESS (20 steps)
+  Post-grasp  : SUCCESS (24 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_14
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (2 steps)
+
+demo_15
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (24 steps)
+  Grasp       : SUCCESS (23 steps)
+  Post-grasp  : SUCCESS (21 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_16
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (32 steps)
+  Grasp       : SUCCESS (28 steps)
+  Post-grasp  : SUCCESS (25 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_17
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (23 steps)
+  Grasp       : SUCCESS (22 steps)
+  Post-grasp  : SUCCESS (21 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_18
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (14 steps)
+  Grasp       : SUCCESS (14 steps)
+  Post-grasp  : SUCCESS (10 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_19
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (50 steps)
+  Grasp       : SUCCESS (44 steps)
+  Post-grasp  : SUCCESS (111 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_20
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (15 steps)
+  Grasp       : SUCCESS (224 steps)
+  Post-grasp  : SUCCESS (91 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_21
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (15 steps)
+  Grasp       : SUCCESS (15 steps)
+  Post-grasp  : SUCCESS (17 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_22
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (48 steps)
+  Grasp       : SUCCESS (86 steps)
+  Post-grasp  : SUCCESS (26 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_23
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (22 steps)
+  Grasp       : SUCCESS (22 steps)
+  Post-grasp  : SUCCESS (18 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_24
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (10 steps)
+  Grasp       : SUCCESS (9 steps)
+  Post-grasp  : SUCCESS (9 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_25
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (21 steps)
+  Grasp       : SUCCESS (26 steps)
+  Post-grasp  : SUCCESS (15 steps)
+  Pre-success : SUCCESS (1 steps)
+
+======================================================================
+BC-500 (seed 43) PHASE RESULTS
+======================================================================
+Approach     |  0/25 |    0.0% | mean success steps=nan
+Pre-grasp    | 20/25 |   80.0% | mean success steps=38.5
+Grasp        | 20/25 |   80.0% | mean success steps=49.2
+Post-grasp   | 21/25 |   84.0% | mean success steps=45.6
+Pre-success  | 25/25 |  100.0% | mean success steps=1.5
+
+======================================================================
+EVALUATING BC-500 (seed 44)
+======================================================================
+
+demo_1
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (2 steps)
+
+demo_2
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : SUCCESS (77 steps)
+  Pre-success : SUCCESS (7 steps)
+
+demo_3
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (24 steps)
+  Grasp       : SUCCESS (21 steps)
+  Post-grasp  : SUCCESS (22 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_4
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (68 steps)
+  Grasp       : SUCCESS (58 steps)
+  Post-grasp  : SUCCESS (103 steps)
+  Pre-success : FAIL (horizon)
+
+demo_5
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (44 steps)
+  Grasp       : SUCCESS (45 steps)
+  Post-grasp  : SUCCESS (51 steps)
+  Pre-success : SUCCESS (5 steps)
+
+demo_6
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (2 steps)
+
+demo_7
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (113 steps)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (2 steps)
+
+demo_8
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : SUCCESS (41 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_9
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (43 steps)
+  Grasp       : SUCCESS (44 steps)
+  Post-grasp  : SUCCESS (26 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_10
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (24 steps)
+  Grasp       : SUCCESS (26 steps)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : FAIL (horizon)
+
+demo_11
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (15 steps)
+  Grasp       : SUCCESS (17 steps)
+  Post-grasp  : SUCCESS (29 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_12
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (30 steps)
+  Grasp       : SUCCESS (32 steps)
+  Post-grasp  : SUCCESS (34 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_13
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (25 steps)
+  Grasp       : SUCCESS (48 steps)
+  Post-grasp  : SUCCESS (20 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_14
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (30 steps)
+  Grasp       : SUCCESS (29 steps)
+  Post-grasp  : SUCCESS (41 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_15
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (26 steps)
+  Grasp       : SUCCESS (22 steps)
+  Post-grasp  : SUCCESS (23 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_16
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (48 steps)
+  Grasp       : SUCCESS (49 steps)
+  Post-grasp  : SUCCESS (41 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_17
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (76 steps)
+  Grasp       : SUCCESS (87 steps)
+  Post-grasp  : SUCCESS (90 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_18
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (49 steps)
+  Grasp       : SUCCESS (70 steps)
+  Post-grasp  : SUCCESS (65 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_19
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (92 steps)
+  Grasp       : SUCCESS (29 steps)
+  Post-grasp  : SUCCESS (36 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_20
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (9 steps)
+  Grasp       : SUCCESS (10 steps)
+  Post-grasp  : SUCCESS (9 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_21
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (14 steps)
+  Grasp       : SUCCESS (16 steps)
+  Post-grasp  : SUCCESS (19 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_22
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (14 steps)
+  Grasp       : SUCCESS (13 steps)
+  Post-grasp  : SUCCESS (11 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_23
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (33 steps)
+  Grasp       : SUCCESS (37 steps)
+  Post-grasp  : SUCCESS (20 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_24
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (30 steps)
+  Grasp       : SUCCESS (31 steps)
+  Post-grasp  : SUCCESS (34 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_25
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (29 steps)
+  Grasp       : SUCCESS (27 steps)
+  Post-grasp  : SUCCESS (24 steps)
+  Pre-success : SUCCESS (2 steps)
+
+======================================================================
+BC-500 (seed 44) PHASE RESULTS
+======================================================================
+Approach     |  0/25 |    0.0% | mean success steps=nan
+Pre-grasp    | 21/25 |   84.0% | mean success steps=39.8
+Grasp        | 20/25 |   80.0% | mean success steps=35.5
+Post-grasp   | 21/25 |   84.0% | mean success steps=38.9
+Pre-success  | 23/25 |   92.0% | mean success steps=2.3
+
+======================================================================
+EVALUATING BC-500 (seed 45)
+======================================================================
+
+demo_1
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (2 steps)
+
+demo_2
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (69 steps)
+  Grasp       : SUCCESS (57 steps)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (5 steps)
+
+demo_3
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : SUCCESS (17 steps)
+  Post-grasp  : SUCCESS (32 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_4
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (98 steps)
+  Grasp       : SUCCESS (115 steps)
+  Post-grasp  : SUCCESS (70 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_5
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (23 steps)
+  Grasp       : SUCCESS (31 steps)
+  Post-grasp  : SUCCESS (29 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_6
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (2 steps)
+
+demo_7
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (13 steps)
+  Grasp       : SUCCESS (14 steps)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (1 steps)
+
+demo_8
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : SUCCESS (51 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_9
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (39 steps)
+  Grasp       : SUCCESS (41 steps)
+  Post-grasp  : SUCCESS (20 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_10
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (21 steps)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : SUCCESS (16 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_11
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (9 steps)
+  Grasp       : SUCCESS (13 steps)
+  Post-grasp  : SUCCESS (19 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_12
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (38 steps)
+  Grasp       : SUCCESS (30 steps)
+  Post-grasp  : SUCCESS (27 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_13
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (32 steps)
+  Grasp       : SUCCESS (28 steps)
+  Post-grasp  : SUCCESS (30 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_14
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (62 steps)
+  Grasp       : SUCCESS (64 steps)
+  Post-grasp  : SUCCESS (70 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_15
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (40 steps)
+  Grasp       : SUCCESS (27 steps)
+  Post-grasp  : SUCCESS (24 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_16
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (44 steps)
+  Grasp       : SUCCESS (44 steps)
+  Post-grasp  : SUCCESS (36 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_17
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (41 steps)
+  Grasp       : SUCCESS (43 steps)
+  Post-grasp  : SUCCESS (37 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_18
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (27 steps)
+  Grasp       : SUCCESS (28 steps)
+  Post-grasp  : SUCCESS (27 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_19
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (28 steps)
+  Grasp       : SUCCESS (31 steps)
+  Post-grasp  : SUCCESS (32 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_20
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (48 steps)
+  Grasp       : SUCCESS (45 steps)
+  Post-grasp  : SUCCESS (39 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_21
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (16 steps)
+  Grasp       : SUCCESS (19 steps)
+  Post-grasp  : SUCCESS (23 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_22
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (49 steps)
+  Grasp       : SUCCESS (54 steps)
+  Post-grasp  : SUCCESS (48 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_23
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (50 steps)
+  Grasp       : SUCCESS (38 steps)
+  Post-grasp  : SUCCESS (26 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_24
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (34 steps)
+  Grasp       : SUCCESS (36 steps)
+  Post-grasp  : SUCCESS (38 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_25
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (21 steps)
+  Grasp       : SUCCESS (31 steps)
+  Post-grasp  : SUCCESS (23 steps)
+  Pre-success : SUCCESS (1 steps)
+
+======================================================================
+BC-500 (seed 45) PHASE RESULTS
+======================================================================
+Approach     |  0/25 |    0.0% | mean success steps=nan
+Pre-grasp    | 21/25 |   84.0% | mean success steps=38.2
+Grasp        | 21/25 |   84.0% | mean success steps=38.4
+Post-grasp   | 21/25 |   84.0% | mean success steps=34.1
+Pre-success  | 25/25 |  100.0% | mean success steps=2.0
+
+======================================================================
+EVALUATING BC-500 (seed 46)
+======================================================================
+
+demo_1
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (2 steps)
+
+demo_2
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : SUCCESS (151 steps)
+  Pre-success : SUCCESS (5 steps)
+
+demo_3
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : SUCCESS (53 steps)
+  Post-grasp  : SUCCESS (36 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_4
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (87 steps)
+  Grasp       : SUCCESS (67 steps)
+  Post-grasp  : SUCCESS (54 steps)
+  Pre-success : SUCCESS (102 steps)
+
+demo_5
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (5 steps)
+
+demo_6
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (127 steps)
+  Grasp       : SUCCESS (170 steps)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (2 steps)
+
+demo_7
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (2 steps)
+
+demo_8
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (3 steps)
+
+demo_9
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (51 steps)
+  Grasp       : SUCCESS (61 steps)
+  Post-grasp  : SUCCESS (32 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_10
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (27 steps)
+  Grasp       : SUCCESS (17 steps)
+  Post-grasp  : SUCCESS (18 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_11
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (22 steps)
+  Grasp       : SUCCESS (33 steps)
+  Post-grasp  : SUCCESS (235 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_12
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (47 steps)
+  Grasp       : SUCCESS (133 steps)
+  Post-grasp  : SUCCESS (136 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_13
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (301 steps)
+  Grasp       : SUCCESS (328 steps)
+  Post-grasp  : SUCCESS (306 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_14
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (3 steps)
+
+demo_15
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (39 steps)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : SUCCESS (23 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_16
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (45 steps)
+  Grasp       : SUCCESS (47 steps)
+  Post-grasp  : SUCCESS (40 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_17
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (17 steps)
+  Grasp       : SUCCESS (19 steps)
+  Post-grasp  : SUCCESS (17 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_18
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (18 steps)
+  Grasp       : SUCCESS (18 steps)
+  Post-grasp  : SUCCESS (17 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_19
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : SUCCESS (77 steps)
+  Post-grasp  : SUCCESS (100 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_20
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (34 steps)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (3 steps)
+
+demo_21
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (3 steps)
+
+demo_22
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (39 steps)
+  Grasp       : SUCCESS (42 steps)
+  Post-grasp  : SUCCESS (32 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_23
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (59 steps)
+  Grasp       : SUCCESS (44 steps)
+  Post-grasp  : SUCCESS (28 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_24
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (25 steps)
+  Grasp       : SUCCESS (26 steps)
+  Post-grasp  : SUCCESS (23 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_25
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (20 steps)
+  Grasp       : SUCCESS (19 steps)
+  Post-grasp  : SUCCESS (17 steps)
+  Pre-success : SUCCESS (1 steps)
+
+======================================================================
+BC-500 (seed 46) PHASE RESULTS
+======================================================================
+Approach     |  0/25 |    0.0% | mean success steps=nan
+Pre-grasp    | 16/25 |   64.0% | mean success steps=59.9
+Grasp        | 16/25 |   64.0% | mean success steps=72.1
+Post-grasp   | 17/25 |   68.0% | mean success steps=74.4
+Pre-success  | 25/25 |  100.0% | mean success steps=6.5
+
+======================================================================
+EVALUATING BC-500 (seed 47)
+======================================================================
+
+demo_1
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (2 steps)
+
+demo_2
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (26 steps)
+  Grasp       : SUCCESS (28 steps)
+  Post-grasp  : SUCCESS (27 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_3
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (6 steps)
+  Grasp       : SUCCESS (7 steps)
+  Post-grasp  : SUCCESS (7 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_4
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (49 steps)
+  Grasp       : SUCCESS (47 steps)
+  Post-grasp  : SUCCESS (47 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_5
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (15 steps)
+  Grasp       : SUCCESS (13 steps)
+  Post-grasp  : SUCCESS (14 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_6
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (39 steps)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (1 steps)
+
+demo_7
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (36 steps)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (1 steps)
+
+demo_8
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : SUCCESS (22 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_9
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (30 steps)
+  Grasp       : SUCCESS (26 steps)
+  Post-grasp  : SUCCESS (12 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_10
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (18 steps)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : SUCCESS (18 steps)
+  Pre-success : FAIL (horizon)
+
+demo_11
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (8 steps)
+  Grasp       : SUCCESS (9 steps)
+  Post-grasp  : SUCCESS (11 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_12
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (22 steps)
+  Grasp       : SUCCESS (19 steps)
+  Post-grasp  : SUCCESS (18 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_13
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (20 steps)
+  Grasp       : SUCCESS (14 steps)
+  Post-grasp  : SUCCESS (12 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_14
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (9 steps)
+  Grasp       : SUCCESS (9 steps)
+  Post-grasp  : SUCCESS (10 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_15
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (19 steps)
+  Grasp       : SUCCESS (19 steps)
+  Post-grasp  : SUCCESS (15 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_16
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (22 steps)
+  Grasp       : SUCCESS (21 steps)
+  Post-grasp  : SUCCESS (17 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_17
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (8 steps)
+  Grasp       : SUCCESS (9 steps)
+  Post-grasp  : SUCCESS (7 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_18
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (13 steps)
+  Grasp       : SUCCESS (14 steps)
+  Post-grasp  : SUCCESS (13 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_19
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (29 steps)
+  Grasp       : SUCCESS (16 steps)
+  Post-grasp  : SUCCESS (14 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_20
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (7 steps)
+  Grasp       : SUCCESS (23 steps)
+  Post-grasp  : SUCCESS (21 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_21
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (10 steps)
+  Grasp       : SUCCESS (10 steps)
+  Post-grasp  : SUCCESS (10 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_22
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (160 steps)
+  Grasp       : SUCCESS (204 steps)
+  Post-grasp  : SUCCESS (55 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_23
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (20 steps)
+  Grasp       : SUCCESS (20 steps)
+  Post-grasp  : SUCCESS (13 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_24
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (10 steps)
+  Grasp       : SUCCESS (10 steps)
+  Post-grasp  : SUCCESS (11 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_25
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (16 steps)
+  Grasp       : SUCCESS (16 steps)
+  Post-grasp  : SUCCESS (13 steps)
+  Pre-success : SUCCESS (2 steps)
+
+======================================================================
+BC-500 (seed 47) PHASE RESULTS
+======================================================================
+Approach     |  0/25 |    0.0% | mean success steps=nan
+Pre-grasp    | 23/25 |   92.0% | mean success steps=25.7
+Grasp        | 20/25 |   80.0% | mean success steps=26.7
+Post-grasp   | 22/25 |   88.0% | mean success steps=17.6
+Pre-success  | 24/25 |   96.0% | mean success steps=1.4
+
+======================================================================
+EVALUATING BC-500 (seed 48)
+======================================================================
+
+demo_1
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (3 steps)
+
+demo_2
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (68 steps)
+  Grasp       : SUCCESS (85 steps)
+  Post-grasp  : SUCCESS (39 steps)
+  Pre-success : SUCCESS (4 steps)
+
+demo_3
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : SUCCESS (10 steps)
+  Post-grasp  : SUCCESS (16 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_4
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (124 steps)
+  Grasp       : SUCCESS (117 steps)
+  Post-grasp  : SUCCESS (99 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_5
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (62 steps)
+  Grasp       : SUCCESS (68 steps)
+  Post-grasp  : SUCCESS (67 steps)
+  Pre-success : SUCCESS (6 steps)
+
+demo_6
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (2 steps)
+
+demo_7
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : FAIL (horizon)
+  Pre-success : SUCCESS (2 steps)
+
+demo_8
+  Approach    : FAIL (horizon)
+  Pre-grasp   : FAIL (horizon)
+  Grasp       : FAIL (horizon)
+  Post-grasp  : SUCCESS (47 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_9
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (37 steps)
+  Grasp       : SUCCESS (36 steps)
+  Post-grasp  : SUCCESS (23 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_10
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (31 steps)
+  Grasp       : SUCCESS (33 steps)
+  Post-grasp  : SUCCESS (30 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_11
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (18 steps)
+  Grasp       : SUCCESS (19 steps)
+  Post-grasp  : SUCCESS (20 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_12
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (80 steps)
+  Grasp       : SUCCESS (74 steps)
+  Post-grasp  : SUCCESS (64 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_13
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (32 steps)
+  Grasp       : SUCCESS (25 steps)
+  Post-grasp  : SUCCESS (17 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_14
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (28 steps)
+  Grasp       : SUCCESS (41 steps)
+  Post-grasp  : SUCCESS (44 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_15
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (22 steps)
+  Grasp       : SUCCESS (21 steps)
+  Post-grasp  : SUCCESS (17 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_16
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (44 steps)
+  Grasp       : SUCCESS (43 steps)
+  Post-grasp  : SUCCESS (34 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_17
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (42 steps)
+  Grasp       : SUCCESS (44 steps)
+  Post-grasp  : SUCCESS (42 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_18
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (18 steps)
+  Grasp       : SUCCESS (17 steps)
+  Post-grasp  : SUCCESS (15 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_19
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (34 steps)
+  Grasp       : SUCCESS (38 steps)
+  Post-grasp  : SUCCESS (39 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_20
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (217 steps)
+  Grasp       : SUCCESS (192 steps)
+  Post-grasp  : SUCCESS (194 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_21
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (14 steps)
+  Grasp       : SUCCESS (15 steps)
+  Post-grasp  : SUCCESS (19 steps)
+  Pre-success : SUCCESS (1 steps)
+
+demo_22
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (48 steps)
+  Grasp       : SUCCESS (57 steps)
+  Post-grasp  : SUCCESS (43 steps)
+  Pre-success : SUCCESS (3 steps)
+
+demo_23
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (27 steps)
+  Grasp       : SUCCESS (35 steps)
+  Post-grasp  : SUCCESS (31 steps)
+  Pre-success : SUCCESS (2 steps)
+
+demo_24
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (43 steps)
+  Grasp       : SUCCESS (43 steps)
+  Post-grasp  : SUCCESS (42 steps)
+  Pre-success : SUCCESS (4 steps)
+
+demo_25
+  Approach    : FAIL (horizon)
+  Pre-grasp   : SUCCESS (18 steps)
+  Grasp       : SUCCESS (20 steps)
+  Post-grasp  : SUCCESS (17 steps)
+  Pre-success : SUCCESS (1 steps)
+
+======================================================================
+BC-500 (seed 48) PHASE RESULTS
+======================================================================
+Approach     |  0/25 |    0.0% | mean success steps=nan
+Pre-grasp    | 20/25 |   80.0% | mean success steps=50.4
+Grasp        | 21/25 |   84.0% | mean success steps=49.2
+Post-grasp   | 22/25 |   88.0% | mean success steps=43.6
+Pre-success  | 25/25 |  100.0% | mean success steps=2.3
+
+==============================================================================
+BC-50 PHASE-CONDITIONED SUCCESS ACROSS SEEDS
+==============================================================================
+Seeds used: [42, 43, 44, 45, 46, 47, 48]
+Phase         Mean %    Per-seed (%)
+------------------------------------------------------------------------------
+Approach      0.0       (0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
+Pre-grasp     80.6      (88.0, 88.0, 84.0, 84.0, 88.0, 48.0, 84.0)
+Grasp         83.4      (88.0, 88.0, 88.0, 84.0, 88.0, 64.0, 84.0)
+Post-grasp    82.9      (88.0, 88.0, 88.0, 84.0, 88.0, 56.0, 88.0)
+Pre-success   96.6      (100.0, 96.0, 100.0, 96.0, 100.0, 84.0, 100.0)
+==============================================================================
+
+==============================================================================
+BC-500 PHASE-CONDITIONED SUCCESS ACROSS SEEDS
+==============================================================================
+Seeds used: [42, 43, 44, 45, 46, 47, 48]
+Phase         Mean %    Per-seed (%)
+------------------------------------------------------------------------------
+Approach      0.0       (0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
+Pre-grasp     81.7      (88.0, 80.0, 84.0, 84.0, 64.0, 92.0, 80.0)
+Grasp         80.0      (88.0, 80.0, 80.0, 84.0, 64.0, 80.0, 84.0)
+Post-grasp    83.4      (88.0, 84.0, 84.0, 84.0, 68.0, 88.0, 88.0)
+Pre-success   98.3      (100.0, 100.0, 92.0, 100.0, 100.0, 96.0, 100.0)
+==============================================================================
+
+======================================================================
+SEMANTIC PHASE CONTINUATION RESULTS
+======================================================================
+Phase         BC-50             BC-500            
+--------------------------------------------------
+Approach      0/25 (0.0%)       0/25 (0.0%)       
+Pre-grasp     22/25 (88.0%)     22/25 (88.0%)     
+Grasp         22/25 (88.0%)     22/25 (88.0%)     
+Post-grasp    22/25 (88.0%)     22/25 (88.0%)     
+Pre-success   25/25 (100.0%)    25/25 (100.0%)    
+======================================================================

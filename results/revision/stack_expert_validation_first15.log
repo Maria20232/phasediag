@@ -1,0 +1,53 @@
+[robosuite WARNING] No private macro file found! (macros.py:57)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:58)
+[robosuite WARNING] To setup, run: python /home/maria/miniconda3/envs/vla/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (macros.py:59)
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly, otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/envs/vla/lib/python3.11/site-packages/robosuite/controllers/config/robots/default_panda.json (composite_controller_factory.py:121)
+demo_1 Approach success 501
+demo_1 Grasp-transport success 168
+demo_1 Near-placement success 127
+demo_2 Approach success 554
+demo_2 Grasp-transport success 111
+demo_2 Near-placement success 80
+demo_3 Approach failure 729
+demo_3 Grasp-transport success 164
+demo_3 Near-placement success 72
+demo_4 Approach success 614
+demo_4 Grasp-transport success 81
+demo_4 Near-placement success 49
+demo_5 Approach failure 1175
+demo_5 Grasp-transport success 235
+demo_5 Near-placement success 84
+demo_6 Approach success 444
+demo_6 Grasp-transport success 179
+demo_6 Near-placement success 132
+demo_7 Approach success 438
+demo_7 Grasp-transport success 99
+demo_7 Near-placement success 61
+demo_8 Approach failure 747
+demo_8 Grasp-transport success 152
+demo_8 Near-placement success 116
+demo_9 Approach success 463
+demo_9 Grasp-transport success 137
+demo_9 Near-placement success 87
+demo_10 Approach success 629
+demo_10 Grasp-transport success 104
+demo_10 Near-placement success 58
+demo_11 Approach success 628
+demo_11 Grasp-transport success 262
+demo_11 Near-placement success 139
+demo_12 Approach success 372
+demo_12 Grasp-transport success 137
+demo_12 Near-placement success 99
+demo_13 Approach success 687
+demo_13 Grasp-transport success 139
+demo_13 Near-placement success 95
+demo_14 Approach success 489
+demo_14 Grasp-transport success 144
+demo_14 Near-placement success 49
+demo_15 Approach success 605
+demo_15 Grasp-transport success 163
+demo_15 Near-placement success 73
+
+EXPERT VALIDATION SUMMARY: {'success': 42, 'failure': 3, 'excluded': 0, 'missing': 0}

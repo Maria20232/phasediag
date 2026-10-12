@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 
+import argparse
+import glob
+import os
+import re
+
 import h5py
 import numpy as np
 import torch
@@ -9,9 +14,13 @@ from robosuite.controllers import load_composite_controller_config
 from eval_bc import BCPolicy, flatten_obs
 
 
-DATASET = "../data/demos_lift/low_dim.hdf5"
-BC50_PATH = "../data/demos_lift/bc_50.pt"
-BC500_PATH = "../data/demos_lift/bc_500.pt"
+import os as _os
+DATASET = _os.path.expanduser("~/robosuite_work/demos_lift/low_dim.hdf5")
+
+# Default checkpoint glob patterns. Each match is expected to contain
+# "seed<N>" in its filename, e.g. bc_50_seed42.pt, bc_500_seed43.pt
+BC50_GLOB = _os.path.expanduser("~/robosuite_work/demos_lift/bc_50_seed*.pt")
+BC500_GLOB = _os.path.expanduser("~/robosuite_work/demos_lift/bc_500_seed*.pt")
 
 CONTROL_FREQ = 20
 HORIZON = 400
@@ -276,15 +285,80 @@ def print_comparison(results_50, results_500):
     print("=" * 70)
 
 
+def find_seeded_checkpoints(pattern):
+    """Return {seed:int -> path} for every checkpoint matching pattern
+    whose filename contains 'seed<N>'."""
+    found = {}
+    for path in sorted(glob.glob(pattern)):
+        m = re.search(r"seed(\d+)", os.path.basename(path))
+        if m:
+            found[int(m.group(1))] = path
+    return found
+
+
+def phase_success_rate(results, phase):
+    d = results[phase]
+    if d["attempts"] == 0:
+        return float("nan")
+    return 100.0 * d["successes"] / d["attempts"]
+
+
+def print_multi_seed_summary(label, per_seed_results, phase_names):
+    """Prints a Table-IV-style summary: mean success rate per phase plus
+    the individual per-seed rates, matching the paper's reporting format."""
+    print()
+    print("=" * 78)
+    print(f"{label} PHASE-CONDITIONED SUCCESS ACROSS SEEDS")
+    print("=" * 78)
+    seeds = sorted(per_seed_results.keys())
+    print(f"Seeds used: {seeds}")
+    print(f"{'Phase':<14}{'Mean %':<10}Per-seed (%)")
+    print("-" * 78)
+    for phase in phase_names:
+        rates = [phase_success_rate(per_seed_results[s], phase) for s in seeds]
+        valid_rates = [r for r in rates if not np.isnan(r)]
+        mean_rate = np.mean(valid_rates) if valid_rates else float("nan")
+        per_seed_str = ", ".join(
+            f"{r:.1f}" if not np.isnan(r) else "N/A" for r in rates
+        )
+        print(f"{phase:<14}{mean_rate:<10.1f}({per_seed_str})")
+    print("=" * 78)
+
+
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--bc50_glob", type=str, default=BC50_GLOB,
+        help="Glob pattern for BC-50 checkpoints, each containing 'seed<N>' in its filename.",
+    )
+    parser.add_argument(
+        "--bc500_glob", type=str, default=BC500_GLOB,
+        help="Glob pattern for BC-500 checkpoints, each containing 'seed<N>' in its filename.",
+    )
+    parser.add_argument(
+        "--seeds", type=int, nargs="*", default=None,
+        help="Optional subset of seeds to evaluate (default: evaluate every matched checkpoint).",
+    )
+    args = parser.parse_args()
+
     print("=" * 70)
     print("DiagVLA SEMANTIC PHASE CONTINUATION ANALYSIS")
     print("=" * 70)
 
-    print("\nLoading policies...")
-    bc50 = load_policy(BC50_PATH)
-    bc500 = load_policy(BC500_PATH)
-    print("Policies loaded.")
+    bc50_ckpts = find_seeded_checkpoints(args.bc50_glob)
+    bc500_ckpts = find_seeded_checkpoints(args.bc500_glob)
+
+    if args.seeds is not None:
+        bc50_ckpts = {s: p for s, p in bc50_ckpts.items() if s in args.seeds}
+        bc500_ckpts = {s: p for s, p in bc500_ckpts.items() if s in args.seeds}
+
+    if not bc50_ckpts:
+        raise FileNotFoundError(f"No BC-50 checkpoints matched {args.bc50_glob!r}")
+    if not bc500_ckpts:
+        raise FileNotFoundError(f"No BC-500 checkpoints matched {args.bc500_glob!r}")
+
+    print(f"\nFound BC-50 seeds:  {sorted(bc50_ckpts.keys())}")
+    print(f"Found BC-500 seeds: {sorted(bc500_ckpts.keys())}")
 
     print("\nCreating Lift environment...")
     env = create_env()
@@ -304,12 +378,28 @@ def main():
             phase_text = ", ".join(f"{name}={idx}" for name, idx in phases.items())
             print(f"  {demo_name}: {phase_text}")
 
-    results_50 = evaluate_policy(env, bc50, "BC-50", demos)
-    results_500 = evaluate_policy(env, bc500, "BC-500", demos)
+    phase_names = ["Approach", "Pre-grasp", "Grasp", "Post-grasp", "Pre-success"]
 
-    print_policy_results("BC-50", results_50)
-    print_policy_results("BC-500", results_500)
-    print_comparison(results_50, results_500)
+    results_50_by_seed = {}
+    for seed, path in sorted(bc50_ckpts.items()):
+        policy = load_policy(path)
+        results_50_by_seed[seed] = evaluate_policy(env, policy, f"BC-50 (seed {seed})", demos)
+        print_policy_results(f"BC-50 (seed {seed})", results_50_by_seed[seed])
+
+    results_500_by_seed = {}
+    for seed, path in sorted(bc500_ckpts.items()):
+        policy = load_policy(path)
+        results_500_by_seed[seed] = evaluate_policy(env, policy, f"BC-500 (seed {seed})", demos)
+        print_policy_results(f"BC-500 (seed {seed})", results_500_by_seed[seed])
+
+    print_multi_seed_summary("BC-50", results_50_by_seed, phase_names)
+    print_multi_seed_summary("BC-500", results_500_by_seed, phase_names)
+
+    # Legacy single-seed-pair comparison view, using the lowest available seed
+    # from each policy, kept for continuity with earlier console output.
+    lowest_50 = min(results_50_by_seed)
+    lowest_500 = min(results_500_by_seed)
+    print_comparison(results_50_by_seed[lowest_50], results_500_by_seed[lowest_500])
 
     env.close()
 

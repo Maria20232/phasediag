@@ -71,7 +71,8 @@ def train_bc(demo_path, epochs=500, batch_size=64, lr=1e-3, save_path=None, seed
             print(f"Epoch {epoch}: Loss = {total_loss/num_batches:.6f}")
 
     if save_path is None:
-        save_path = os.path.join(os.path.dirname(demo_path), f"bc_stack_ep{epochs}.pt")
+        seed_tag = f"_seed{seed}" if seed is not None else ""
+        save_path = os.path.join(os.path.dirname(demo_path), f"bc_stack_ep{epochs}{seed_tag}.pt")
     torch.save(policy.state_dict(), save_path)
     print(f"\nModel saved to: {save_path}")
     return policy
@@ -83,5 +84,6 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     demo_path = os.path.expanduser("~/robosuite_work/demos_stack/1786611107_4237583/low_dim.hdf5")
-    save_path = os.path.expanduser(f"~/robosuite_work/demos_stack/bc_stack_{args.epochs}.pt")
+    seed_tag = f"_seed{args.seed}" if args.seed is not None else ""
+    save_path = os.path.expanduser(f"~/robosuite_work/demos_stack/bc_stack_{args.epochs}{seed_tag}.pt")
     train_bc(demo_path, epochs=args.epochs, save_path=save_path, seed=args.seed)

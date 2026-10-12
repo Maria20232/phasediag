@@ -1,0 +1,162 @@
+=== /home/maria/robosuite_work/demos_stack/bc_stack_500_seed42.pt ===
+[robosuite WARNING] No private macro file found! (macros.py:57)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:58)
+[robosuite WARNING] To setup, run: python /home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (macros.py:59)
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly, otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/controllers/config/robots/default_panda.json (composite_controller_factory.py:121)
+Loading policy...
+Creating Stack environment...
+
+Loading demos from ../data/demos_stack/1786611107_4237583/demo.hdf5 ...
+Traceback (most recent call last):
+  File "/home/maria/phasediag/scripts/phase_stack.py", line 151, in <module>
+    main()
+  File "/home/maria/phasediag/scripts/phase_stack.py", line 115, in main
+    with h5py.File(args.dataset, "r") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/h5py/_hl/files.py", line 555, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/h5py/_hl/files.py", line 232, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 106, in h5py.h5f.open
+FileNotFoundError: [Errno 2] Unable to synchronously open file (unable to open file: name = '../data/demos_stack/1786611107_4237583/demo.hdf5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+=== /home/maria/robosuite_work/demos_stack/bc_stack_500_seed43.pt ===
+[robosuite WARNING] No private macro file found! (macros.py:57)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:58)
+[robosuite WARNING] To setup, run: python /home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (macros.py:59)
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly, otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/controllers/config/robots/default_panda.json (composite_controller_factory.py:121)
+Loading policy...
+Creating Stack environment...
+
+Loading demos from ../data/demos_stack/1786611107_4237583/demo.hdf5 ...
+Traceback (most recent call last):
+  File "/home/maria/phasediag/scripts/phase_stack.py", line 151, in <module>
+    main()
+  File "/home/maria/phasediag/scripts/phase_stack.py", line 115, in main
+    with h5py.File(args.dataset, "r") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/h5py/_hl/files.py", line 555, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/h5py/_hl/files.py", line 232, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 106, in h5py.h5f.open
+FileNotFoundError: [Errno 2] Unable to synchronously open file (unable to open file: name = '../data/demos_stack/1786611107_4237583/demo.hdf5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+=== /home/maria/robosuite_work/demos_stack/bc_stack_500_seed44.pt ===
+[robosuite WARNING] No private macro file found! (macros.py:57)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:58)
+[robosuite WARNING] To setup, run: python /home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (macros.py:59)
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly, otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/controllers/config/robots/default_panda.json (composite_controller_factory.py:121)
+Loading policy...
+Creating Stack environment...
+
+Loading demos from ../data/demos_stack/1786611107_4237583/demo.hdf5 ...
+Traceback (most recent call last):
+  File "/home/maria/phasediag/scripts/phase_stack.py", line 151, in <module>
+    main()
+  File "/home/maria/phasediag/scripts/phase_stack.py", line 115, in main
+    with h5py.File(args.dataset, "r") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/h5py/_hl/files.py", line 555, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/h5py/_hl/files.py", line 232, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 106, in h5py.h5f.open
+FileNotFoundError: [Errno 2] Unable to synchronously open file (unable to open file: name = '../data/demos_stack/1786611107_4237583/demo.hdf5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+=== /home/maria/robosuite_work/demos_stack/bc_stack_50_seed42.pt ===
+[robosuite WARNING] No private macro file found! (macros.py:57)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:58)
+[robosuite WARNING] To setup, run: python /home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (macros.py:59)
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly, otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/controllers/config/robots/default_panda.json (composite_controller_factory.py:121)
+Loading policy...
+Creating Stack environment...
+
+Loading demos from ../data/demos_stack/1786611107_4237583/demo.hdf5 ...
+Traceback (most recent call last):
+  File "/home/maria/phasediag/scripts/phase_stack.py", line 151, in <module>
+    main()
+  File "/home/maria/phasediag/scripts/phase_stack.py", line 115, in main
+    with h5py.File(args.dataset, "r") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/h5py/_hl/files.py", line 555, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/h5py/_hl/files.py", line 232, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 106, in h5py.h5f.open
+FileNotFoundError: [Errno 2] Unable to synchronously open file (unable to open file: name = '../data/demos_stack/1786611107_4237583/demo.hdf5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+=== /home/maria/robosuite_work/demos_stack/bc_stack_50_seed43.pt ===
+[robosuite WARNING] No private macro file found! (macros.py:57)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:58)
+[robosuite WARNING] To setup, run: python /home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (macros.py:59)
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly, otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/controllers/config/robots/default_panda.json (composite_controller_factory.py:121)
+Loading policy...
+Creating Stack environment...
+
+Loading demos from ../data/demos_stack/1786611107_4237583/demo.hdf5 ...
+Traceback (most recent call last):
+  File "/home/maria/phasediag/scripts/phase_stack.py", line 151, in <module>
+    main()
+  File "/home/maria/phasediag/scripts/phase_stack.py", line 115, in main
+    with h5py.File(args.dataset, "r") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/h5py/_hl/files.py", line 555, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/h5py/_hl/files.py", line 232, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 106, in h5py.h5f.open
+FileNotFoundError: [Errno 2] Unable to synchronously open file (unable to open file: name = '../data/demos_stack/1786611107_4237583/demo.hdf5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+=== /home/maria/robosuite_work/demos_stack/bc_stack_50_seed44.pt ===
+[robosuite WARNING] No private macro file found! (macros.py:57)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:58)
+[robosuite WARNING] To setup, run: python /home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/scripts/setup_macros.py (macros.py:59)
+[robosuite WARNING] Could not import robosuite_models. Some robots may not be available. If you want to use these robots, please install robosuite_models from source (https://github.com/ARISE-Initiative/robosuite_models) or through pip install. (__init__.py:30)
+[robosuite WARNING] Could not load the mink-based whole-body IK. Make sure you install related import properly, otherwise you will not be able to use the default IK controller setting for GR1 robot. (__init__.py:40)
+[robosuite INFO] Loading controller configuration from: /home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/robosuite/controllers/config/robots/default_panda.json (composite_controller_factory.py:121)
+Loading policy...
+Creating Stack environment...
+
+Loading demos from ../data/demos_stack/1786611107_4237583/demo.hdf5 ...
+Traceback (most recent call last):
+  File "/home/maria/phasediag/scripts/phase_stack.py", line 151, in <module>
+    main()
+  File "/home/maria/phasediag/scripts/phase_stack.py", line 115, in main
+    with h5py.File(args.dataset, "r") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/h5py/_hl/files.py", line 555, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/maria/miniconda3/envs/phasediag311/lib/python3.11/site-packages/h5py/_hl/files.py", line 232, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 106, in h5py.h5f.open
+FileNotFoundError: [Errno 2] Unable to synchronously open file (unable to open file: name = '../data/demos_stack/1786611107_4237583/demo.hdf5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
